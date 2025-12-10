@@ -431,6 +431,562 @@
             "contactSales": "Hubungi Sales"
         }
     },
+    "aiChat": {
+        "hero": {
+            "badge": "Bertenaga GPT-4 & Machine Learning",
+            "title": "Asisten AI yang Berpikir, Belajar, dan Menjual untuk Anda",
+            "description": "Bukan chatbot biasa. CHARM AI adalah partner bisnis cerdas yang memahami konteks, mengingat pelanggan, dan secara proaktif meningkatkan penjualan 24/7, bahkan saat Anda tidur.",
+            "features": {
+                "natural": "Bahasa Natural",
+                "naturalDesc": "Percakapan seperti manusia",
+                "memory": "Memori Percakapan",
+                "memoryDesc": "Ingat setiap pelanggan",
+                "instant": "Respon Instan < 1s",
+                "instantDesc": "Lebih cepat dari manusia",
+                "smart": "Follow-Up Cerdas",
+                "smartDesc": "Proaktif meningkatkan sales"
+            },
+            "cta": "Aktifkan AI Gratis",
+            "mockup": {
+                "storeName": "Toko Fashion Anda",
+                "powered": "Online • Dibalas oleh AI CHARM",
+                "message1": "Halo, saya mau order jaket via shopee dong kak",
+                "message2": "Halo, untuk order jaket via shopee silahkan klik disini ya kak",
+                "orderButton": "Order via Shopee",
+                "message3": "Wow, Fast Respon! Saya order lansung ya."
+            }
+        },
+        "comparison": {
+            "title": "Perbandingan CHARM AI vs. CS Manusia",
+            "subtitle": "Lihat bagaimana investasi pada AI dapat memberikan efisiensi biaya dan skala yang tak tertandingi.",
+            "aspect": "Aspek",
+            "humanCS": "CS Manusia",
+            "charmAI": "CHARM AI",
+            "operational": "Waktu Operasional",
+            "capacity": "Kapasitas Chat",
+            "response": "Waktu Respon",
+            "cost": "Biaya per Bulan",
+            "fatigue": "Lelah / Sakit",
+            "analytics": "Analitik & Laporan"
+        },
+        "learning": {
+            "title1": "Lihat AI Belajar dalam",
+            "title2": "Real-Time",
+            "description": "Anda tidak perlu coding. Cukup berikan informasi ke AI kami dalam bahasa biasa, dan saksikan ia langsung siap untuk menjawab pertanyaan pelanggan Anda dengan akurat. Proses training hanya 10 menit."
+        },
+        "steps": {
+            "title": "Aktifkan AI Anda dalam 3 Langkah Mudah",
+            "subtitle": "Dari koneksi hingga live, prosesnya dirancang agar cepat dan intuitif.",
+            "step1": {
+                "title": "Hubungkan",
+                "description": "Scan QR code untuk menghubungkan nomor WhatsApp Business API Anda ke platform CHARM."
+            },
+            "step2": {
+                "title": "Latih",
+                "description": "Upload informasi bisnis Anda (katalog, FAQ, info kontak) agar AI dapat mempelajarinya."
+            },
+            "step3": {
+                "title": "Aktifkan",
+                "description": "Nyalakan AI Chat dan biarkan asisten virtual Anda bekerja melayani pelanggan 24/7."
+            }
+        },
+        "industries": {
+            "title": "Solusi Cerdas untuk Berbagai Industri",
+            "subtitle": "CHARM AI telah terbukti meningkatkan efisiensi dan penjualan di berbagai sektor bisnis. Lihat bagaimana kami dapat membantu Anda.",
+            "tabs": {
+                "ecommerce": "E-Commerce",
+                "fnb": "F&B",
+                "clinic": "Klinik & Kesehatan",
+                "hotel": "Hotel & Pariwisata",
+                "professional": "Jasa Profesional"
+            },
+            "followUp": {
+                "title": "Follow-Up Otomatis, Konversi Meningkat",
+                "description": "Jangan biarkan calon pembeli pergi begitu saja. AI kami secara proaktif menindaklanjuti dan menjawab pertanyaan produk 24/7 untuk memaksimalkan setiap peluang penjualan.",
+                "benefit1": "AI merekomendasikan produk dan melakukan upselling.",
+                "benefit2": "Follow up otomatis keranjang belanja yang ditinggalkan.",
+                "benefit3": "Jawab pertanyaan seputar stok, varian, dan pengiriman."
+            },
+            "mockup": {
+                "storeName": "Toko Baju Anda",
+                "message1": "Hi, tas kulitnya masih ada?",
+                "message2": "Tentu kak! Ready warna Hitam & Coklat. Mungkin tertarik juga dengan dompet kulit yang serasi?"
+            }
+        },
+        "beyond": {
+            "title": "Lebih dari Sekedar Chatbot Biasa",
+            "subtitle": "CHARM AI dirancang untuk menjadi inti dari operasi bisnis Anda, bukan sekedar pembalas pesan.",
+            "knowledge": {
+                "title": "Knowledge Base Terpusat",
+                "description": "Latih AI dengan menggunakan PDF, URL, website, atau tulis langsung penjelasan produk dan FAQ Anda dalam hitungan menit."
+            },
+            "memory": {
+                "title": "Memori & Konteks",
+                "description": "AI mengingat percakapan sebelumnya, memungkinkan interaksi yang personal dan berkelanjutan."
+            },
+            "routing": {
+                "title": "Routing Pintar",
+                "description": "AI dapat mendeteksi sentimen atau kata kunci kompleks dan mengalihkan chat ke agen manusia yang tepat."
+            },
+            "proactive": {
+                "title": "Proaktif Menjual",
+                "description": "Bukan hanya menjawab. AI bisa melakukan upselling, cross-selling, dan follow-up prospek secara otomatis."
+            }
+        },
+        "cta": {
+            "title": "Siap Mengaktifkan AI untuk Bisnis Anda?",
+            "subtitle": "Bergabunglah dengan ribuan bisnis yang sudah menggunakan CHARM AI untuk melayani pelanggan lebih baik.",
+            "startFree": "Mulai Gratis Sekarang",
+            "contactSales": "Hubungi Sales"
+        }
+    },
+    "flow": {
+        "hero": {
+            "title1": "Buat Alur Chat WhatsApp",
+            "title2": "Otomatis",
+            "title3": "Tanpa Coding",
+            "description": "Flow Maker: Desain percakapan interaktif dengan drag & drop. Integrasikan AI, API, dan database untuk automasi bisnis yang powerful.",
+            "ctaStart": "Mulai Gratis Sekarang",
+            "ctaDemo": "Lihat Demo"
+        },
+        "whatIs": {
+            "title": "Apa Itu Flow Maker?",
+            "subtitle": "Tools visual untuk membuat alur chat otomatis di WhatsApp Business API. Buat bot pintar yang bisa menjawab pertanyaan, kumpulkan data, dan lakukan tindakan tanpa coding."
+        },
+        "features": {
+            "dragDrop": {
+                "title": "Drag & Drop Interface",
+                "description": "Buat flow kompleks hanya dengan drag, drop, dan klik. Interface intuitif untuk pemula sekalipun."
+            },
+            "aiIntegration": {
+                "title": "Integrasi AI",
+                "description": "Gabungkan dengan AI Chat untuk respons natural dan pintar berdasarkan knowledge base Anda."
+            },
+            "apiWebhook": {
+                "title": "API & Webhook",
+                "description": "Hubungkan dengan sistem eksternal: CRM, database, payment gateway, atau API apapun."
+            },
+            "preview": {
+                "title": "Preview Real-Time",
+                "description": "Lihat simulasi chat di tampilan WhatsApp sebelum publish. Test dan debug dengan mudah."
+            }
+        },
+        "example": {
+            "title": "Contoh Flow Sederhana",
+            "subtitle": "Lihat bagaimana flow untuk pemesanan produk terlihat di editor dan di WhatsApp",
+            "botName": "Flow Bot",
+            "onlinePowered": "Online • Powered by CHARM",
+            "productName": "Produk A: Baju Polos Premium",
+            "productPrice": "Harga Rp 125.000. Bahan nyaman.",
+            "orderNow": "Pesan Sekarang"
+        },
+        "useCases": {
+            "title": "Gunakan Flow Maker Untuk...",
+            "subtitle": "Berbagai skenario bisnis yang bisa diotomatisasi",
+            "ecommerce": {
+                "title": "E-commerce",
+                "item1": "Proses pemesanan otomatis",
+                "item2": "Tracking order real-time",
+                "item3": "Upselling produk",
+                "item4": "Abandoned cart recovery"
+            },
+            "services": {
+                "title": "Layanan Jasa",
+                "item1": "Booking appointment",
+                "item2": "Konsultasi awal",
+                "item3": "Reminder jadwal",
+                "item4": "Follow-up pasca layanan"
+            },
+            "support": {
+                "title": "Customer Support",
+                "item1": "FAQ otomatis",
+                "item2": "Ticket management",
+                "item3": "Escalation ke agent",
+                "item4": "Satisfaction survey"
+            },
+            "leadGen": {
+                "title": "Lead Generation",
+                "item1": "Kumpul data prospek",
+                "item2": "Qualification lead",
+                "item3": "Scoring otomatis",
+                "item4": "Follow-up sequence"
+            }
+        },
+        "benefits": {
+            "title": "Mengapa Pakai Flow Maker?",
+            "subtitle": "Transformasi bisnis Anda dengan automasi cerdas",
+            "timeSaver": {
+                "title": "Hemat Waktu",
+                "description": "Kurangi waktu respon dari menit ke detik. Bot menjawab pertanyaan berulang secara otomatis."
+            },
+            "costSaver": {
+                "title": "Hemat Biaya",
+                "description": "Satu bot bisa handle ratusan chat simultan. Efisiensi operasional hingga 70%."
+            },
+            "increaseSales": {
+                "title": "Tingkatkan Penjualan",
+                "description": "Respon cepat = konversi lebih tinggi. Jangan biarkan customer menunggu dan kabur ke kompetitor."
+            },
+            "satisfaction": {
+                "title": "Satisfaction Tinggi",
+                "description": "Layani customer 24/7 tanpa lelah. Tingkatkan rating dan loyalty dengan respons instan."
+            }
+        },
+        "cta": {
+            "title": "Siap Membuat Flow Pertama Anda?",
+            "subtitle": "Mulai otomatisasi bisnis Anda sekarang dengan Flow Maker",
+            "startFree": "Mulai Gratis Sekarang",
+            "contactSales": "Hubungi Sales"
+        }
+    },
+    "featuresPage": {
+        "hero": {
+            "title": "Satu Platform, Kemampuan Tanpa Batas",
+            "subtitle": "Platform WhatsApp Marketing All-in-One dengan teknologi AI canggih, e-commerce conversational, automasi broadcast, dan CRM terintegrasi. Dirancang untuk bisnis Indonesia, tingkatkan closing rate hingga 30%, hemat waktu support 70%, dan skalakan penjualan tanpa batas.",
+            "cta": "Coba Gratis 7 Hari - Setup Instan"
+        },
+        "platform": {
+            "waba": {
+                "title": "Verifikasi Centang Hijau (WABA)",
+                "description": "Sebagai Official Meta Partner, kami menyediakan layanan pengajuan WhatsApp Business API (WABA) dengan centang hijau gratis.",
+                "benefits": [
+                    "Meningkatkan kredibilitas & kepercayaan brand",
+                    "Proses cepat 3-7 hari kerja",
+                    "Garansi verifikasi berhasil atau uang kembali"
+                ],
+                "cta": "Lihat Paket Harga"
+            },
+            "crm": {
+                "title": "Ticketing & CRM Terintegrasi",
+                "description": "Kelola setiap percakapan sebagai tiket. Assign ke tim, track status, dan pastikan tidak ada pelanggan yang terlewat.",
+                "benefits": [
+                    "Pipeline penjualan (Lead, Follow Up, Closing)",
+                    "Kolaborasi tim dalam satu multi-agent inbox",
+                    "Auto-routing tiket berdasarkan kata kunci"
+                ],
+                "cta": "Eksplor Fitur CRM"
+            },
+            "api": {
+                "title": "Integrasi API & Webhook",
+                "description": "Hubungkan CHARM dengan sistem eksternal Anda (ERP, CRM, dll) untuk automasi end-to-end yang powerful.",
+                "benefits": [
+                    "Dokumentasi API lengkap untuk developer",
+                    "Integrasi no-code via Zapier & Sheets",
+                    "Webhook untuk event real-time (pesan masuk, dll)"
+                ],
+                "cta": "Lihat Dokumentasi API"
+            }
+        },
+        "store": {
+            "conversational": {
+                "title": "Conversational Commerce",
+                "description": "Pelanggan bisa browse produk, tambah ke keranjang, dan checkout langsung di dalam chat WhatsApp, tanpa pindah aplikasi.",
+                "benefits": [
+                    "Katalog produk dinamis di dalam chat",
+                    "Pengalaman checkout tanpa friksi",
+                    "AI reminder untuk keranjang yang ditinggalkan"
+                ],
+                "cta": "Coba Demo Store"
+            },
+            "payment": {
+                "title": "Payment Gateway & Logistik",
+                "description": "Terima pembayaran dari semua channel dan otomatisasi pengiriman. Dari order hingga sampai, semua terkola.",
+                "benefits": [
+                    "Terima pembayaran QRIS, E-Wallet, VA, Kartu Kredit",
+                    "Notifikasi pembayaran berhasil otomatis",
+                    "Integrasi cek ongkir & resi otomatis"
+                ],
+                "cta": "Lihat Opsi Pembayaran"
+            },
+            "booking": {
+                "title": "Sistem Booking Otomatis",
+                "description": "Sempurna untuk bisnis jasa. Atur jadwal, slot waktu, dan biarkan pelanggan booking layanan langsung dari WhatsApp.",
+                "benefits": [
+                    "Manajemen jadwal multi-staf & multi-cabang",
+                    "Pengingat janji temu otomatis H-1",
+                    "Opsi deposit atau pembayaran penuh di muka"
+                ],
+                "cta": "Lihat Fitur Booking"
+            }
+        },
+        "broadcast": {
+            "mass": {
+                "title": "Broadcast Massal Anti-Blokir",
+                "description": "Kirim promosi dan update ke ribuan kontak dengan aman menggunakan API resmi. Personalisasi pesan untuk engagement maksimal.",
+                "benefits": [
+                    "Template pesan yang disetujui Meta",
+                    "Penjadwalan broadcast untuk waktu optimal",
+                    "Dukungan multimedia (gambar, video, PDF)"
+                ],
+                "cta": "Lihat Demo Broadcast"
+            },
+            "segmentation": {
+                "title": "Segmentasi Kontak",
+                "description": "Buat grup kontak berdasarkan demografi, behavior, atau custom tags untuk mengirim pesan yang paling relevan.",
+                "benefits": [
+                    "Aturan segmentasi dinamis",
+                    "Sistem manajemen Tag (Label)",
+                    "Auto-tagging berdasarkan perilaku chat"
+                ],
+                "cta": "Pelajari Segmentasi"
+            },
+            "analytics": {
+                "title": "Campaign Analytics",
+                "description": "Tracking lengkap performa setiap campaign dengan laporan real-time yang detail dan mudah dipahami.",
+                "benefits": [
+                    "Metrik terkirim, dibaca, dan dibalas",
+                    "Analisa Click-through rate (CTR)",
+                    "Dasbor analitik konversi"
+                ],
+                "cta": "Lihat Contoh Laporan"
+            }
+        },
+        "aiFlow": {
+            "aiChat": {
+                "title": "AI Chat Berbasis GPT",
+                "description": "Asisten virtual yang balas chat 24/7 dengan bahasa natural. Memahami konteks, mengingat percakapan, dan dilatih khusus dengan data bisnis Anda.",
+                "benefits": [
+                    "Follow-up otomatis untuk tingkatkan closing rate",
+                    "Handle ribuan chat simultan tanpa delay",
+                    "Pengenalan gambar untuk respons kontekstual"
+                ],
+                "cta": "Pelajari AI Chat"
+            },
+            "flowBuilder": {
+                "title": "AI Flow Builder",
+                "description": "Buat alur percakapan otomatis dengan drag & drop visual builder. No coding required untuk membuat chatbot yang kompleks.",
+                "benefits": [
+                    "Interface visual drag-and-drop",
+                    "Logika percabangan kondisional",
+                    "Integrasi API dan Webhook dalam flow"
+                ],
+                "cta": "Eksplor Flow Builder"
+            },
+            "followUp": {
+                "title": "Follow-up Otomatis",
+                "description": "AI yang proaktif menindaklanjuti customer yang belum reply atau belum checkout, meningkatkan konversi secara signifikan.",
+                "benefits": [
+                    "Algoritma waktu pintar (Smart timing)",
+                    "Penyelamat keranjang (Abandoned cart)",
+                    "Urutan follow-up multi-langkah"
+                ],
+                "cta": "Lihat Cara Kerja"
+            }
+        },
+        "bottomCta": {
+            "title": "Satu Platform, Kemampuan Tanpa Batas",
+            "subtitle": "Bergabunglah dengan ribuan bisnis yang sudah meningkatkan penjualan mereka dengan CHARM",
+            "cta": "Coba Gratis 7 Hari - Setup Instan"
+        }
+    },
+    "solutionsPage": {
+        "hero": {
+            "badge": "SOLUSI INDUSTRI",
+            "title1": "Solusi Khusus untuk",
+            "title2": "Setiap Industri",
+            "subtitle": "Dari E-Commerce hingga Healthcare, kami memiliki solusi WhatsApp Marketing yang disesuaikan dengan kebutuhan spesifik industri Anda. Lebih dari 10,000+ bisnis dari berbagai sektor telah merasakan peningkatan penjualan hingga 300%."
+        },
+        "industries": {
+            "title": "Pilih Industri Anda",
+            "subtitle": "Setiap industri memiliki tantangan unik. Kami menyediakan solusi yang telah terbukti efektif untuk berbagai sektor bisnis.",
+            "cta": "Pelajari Lebih Lanjut",
+            "ecommerce": {
+                "title": "E-Commerce & Retail",
+                "description": "Otomasi penuh dari browse katalog hingga checkout semua dalam satu chat WhatsApp.",
+                "benefits": [
+                    "Abandoned cart recovery",
+                    "Order tracking otomatis",
+                    "Product recommendations AI"
+                ],
+                "stat1": "Conversion",
+                "stat2": "Repeat Order"
+            },
+            "fnb": {
+                "title": "Restoran & F&B",
+                "description": "Reservasi meja, pemesanan delivery, dan loyalty program dalam satu platform.",
+                "benefits": [
+                    "Table reservation system",
+                    "Digital menu interaktif",
+                    "Loyalty points tracking"
+                ],
+                "stat1": "Reservasi",
+                "stat2": "Hemat Waktu"
+            },
+            "healthcare": {
+                "title": "Klinik & Healthcare",
+                "description": "Booking appointment, reminder konsultasi, dan medical record terintegrasi.",
+                "benefits": [
+                    "Appointment scheduling",
+                    "Reminder otomatis H-1",
+                    "Telemedicine support"
+                ],
+                "stat1": "No-Show",
+                "stat2": "Kepuasan"
+            },
+            "property": {
+                "title": "Property & Real Estate",
+                "description": "Lead qualification, site visit scheduler, dan follow-up otomatis hingga closing.",
+                "benefits": [
+                    "Lead scoring AI",
+                    "Virtual tour booking",
+                    "Payment plan calculator"
+                ],
+                "stat1": "Closing",
+                "stat2": "Lead Quality"
+            },
+            "education": {
+                "title": "Pendidikan & Kursus",
+                "description": "Enrollment, penjadwalan trial class, dan pembayaran SPP otomatis.",
+                "benefits": [
+                    "Trial class scheduling",
+                    "Payment reminder SPP",
+                    "Progress report otomatis"
+                ],
+                "stat1": "Enrollment",
+                "stat2": "Retention"
+            },
+            "professional": {
+                "title": "Jasa Profesional",
+                "description": "Konsultasi awal, penjadwalan meeting, quotation dan proposal otomatis.",
+                "benefits": [
+                    "Consultation booking",
+                    "Auto quotation generator",
+                    "Contract e-signature"
+                ],
+                "stat1": "Leads",
+                "stat2": "Win Rate"
+            }
+        },
+        "howItHelps": {
+            "title": "Bagaimana CHARM Membantu Bisnis Anda?",
+            "tabs": {
+                "ecommerce": "E-Commerce",
+                "fnb": "F&B",
+                "healthcare": "Healthcare",
+                "property": "Property",
+                "education": "Education"
+            },
+            "ecommerce": {
+                "mainTitle": "Tingkatkan Conversion Rate E-Commerce Hingga 60%",
+                "description": "Jangan biarkan calon pembeli pergi begitu saja. AI kami secara proaktif menindaklanjuti abandoned cart dan memberikan rekomendasi produk yang personal.",
+                "feature1": {
+                    "title": "Abandoned Cart Recovery",
+                    "description": "Reminder otomatis dengan discount khusus untuk customer yang belum checkout. Tingkatkan recovery rate hingga 35%."
+                },
+                "feature2": {
+                    "title": "AI Product Recommendations",
+                    "description": "Suggest produk berdasarkan histori browsing dan purchase behavior. Upselling otomatis meningkatkan AOV 40%."
+                },
+                "feature3": {
+                    "title": "Auto Order Tracking",
+                    "description": "Update status pengiriman real-time langsung ke chat customer. Kurangi pertanyaan \"dimana paket saya?\" hingga 80%."
+                }
+            },
+            "fnb": {
+                "mainTitle": "Tingkatkan Reservasi Restoran Hingga 80%",
+                "description": "Sistem reservasi 24/7 otomatis yang terintegrasi dengan kapasitas meja dan shift staff Anda.",
+                "feature1": {
+                    "title": "Table Reservation System",
+                    "description": "Customer bisa reservasi meja langsung dari WhatsApp. Sistem otomatis cek ketersediaan dan konfirmasi."
+                },
+                "feature2": {
+                    "title": "Digital Menu Interaktif",
+                    "description": "Menu digital dengan foto dan deskripsi lengkap. Customer bisa pesan langsung tanpa panggil waiter."
+                },
+                "feature3": {
+                    "title": "Loyalty Program",
+                    "description": "Point otomatis terakumulasi setiap transaksi. Reward dan promo eksklusif untuk pelanggan setia."
+                }
+            },
+            "healthcare": {
+                "mainTitle": "Kurangi No-Show Hingga 40%",
+                "description": "Reminder appointment otomatis dan sistem reschedule yang mudah meningkatkan kepatuhan pasien.",
+                "feature1": {
+                    "title": "Appointment Reminder",
+                    "description": "Reminder otomatis H-1 dan H-0 via WhatsApp. Pasien bisa reschedule dengan 1 klik."
+                },
+                "feature2": {
+                    "title": "Online Registration",
+                    "description": "Pasien baru bisa daftar dan isi formulir langsung dari WhatsApp. Hemat waktu administrasi."
+                },
+                "feature3": {
+                    "title": "Telemedicine Support",
+                    "description": "Konsultasi awal via chat atau video call. Resep dan hasil lab bisa dikirim langsung."
+                }
+            },
+            "property": {
+                "mainTitle": "3x Lebih Cepat Closing Properti",
+                "description": "Lead management yang rapi dan follow-up konsisten membuat proses closing lebih efisien.",
+                "feature1": {
+                    "title": "Lead Scoring AI",
+                    "description": "AI otomatis scoring lead berdasarkan engagement dan budget. Fokus ke prospek paling potensial."
+                },
+                "feature2": {
+                    "title": "Site Visit Scheduler",
+                    "description": "Schedule viewing otomatis dengan kalender agent. Reminder H-1 untuk buyer dan agent."
+                },
+                "feature3": {
+                    "title": "Payment Calculator",
+                    "description": "Simulasi KPR dan payment plan langsung di chat. Buyer bisa kalkulasi cicilan sesuai budget."
+                }
+            },
+            "education": {
+                "mainTitle": "Tingkatkan Enrollment Hingga 120%",
+                "description": "Proses pendaftaran yang mudah dan komunikasi rutin dengan orang tua meningkatkan enrollment dan retention.",
+                "feature1": {
+                    "title": "Trial Class Booking",
+                    "description": "Orang tua bisa booking trial class langsung. Reminder otomatis dan feedback collection setelah trial."
+                },
+                "feature2": {
+                    "title": "SPP Payment Reminder",
+                    "description": "Reminder pembayaran SPP otomatis dengan link payment langsung. Reduce tunggakan hingga 70%."
+                },
+                "feature3": {
+                    "title": "Progress Report",
+                    "description": "Laporan perkembangan siswa otomatis terkirim ke orang tua setiap periode. Transparansi meningkatkan trust."
+                }
+            }
+        },
+        "implementation": {
+            "title": "Proses Implementasi yang Mudah",
+            "subtitle": "Dari onboarding hingga go-live hanya dalam 7 hari. Kami siap membantu setiap langkahnya.",
+            "step1": {
+                "title": "Konsultasi Gratis",
+                "desc": "Tim kami akan memahami kebutuhan bisnis dan goals Anda"
+            },
+            "step2": {
+                "title": "Setup & Konfigurasi",
+                "desc": "Kami bantu setup akun, integrasi sistem, dan training tim Anda"
+            },
+            "step3": {
+                "title": "Testing & Optimasi",
+                "desc": "Testing menyeluruh dan fine-tuning AI sebelum launch"
+            },
+            "step4": {
+                "title": "Go Live & Support",
+                "desc": "Launch dan ongoing support 24/7 dari tim expert kami"
+            }
+        },
+        "testimonials": {
+            "title": "Apa Kata Mereka yang Sudah Sukses?",
+            "testimonial1": {
+                "title": "Owner, Butik Fashion Dian",
+                "quote": "Sejak pakai CHARM, penjualan online kami naik 200%! AI-nya bisa handle ratusan chat sekaligus tanpa delay. Customer puas, kami happy!"
+            },
+            "testimonial2": {
+                "title": "Owner, Restoran Padang Sederhana",
+                "quote": "Reservasi meja sekarang 24/7 otomatis. Ga perlu lagi terima telepon satu-satu. Pesanan delivery juga meningkat 3x lipat!"
+            },
+            "testimonial3": {
+                "title": "Direktur, Klinik Sehat Sentosa",
+                "quote": "No-show pasien turun drastis berkat reminder otomatis. Booking appointment jadi lebih mudah. Staff admin kami bisa fokus ke hal lain!"
+            }
+        },
+        "bottomCta": {
+            "title": "Siap Tingkatkan Bisnis Anda?",
+            "cta": "Konsultasi Gratis Sekarang"
+        }
+    },
     "pricing": {
         "title": "Pilih Paket yang Tepat untuk Bisnis Anda",
         "subtitle": "Mulai gratis, upgrade kapan saja. Semua paket termasuk akses ke fitur unggulan kami.",

@@ -12,8 +12,8 @@ export default function Navbar() {
         { key: 'store', href: '/store' },
         { key: 'broadcast', href: '/broadcast' },
         { key: 'flow', href: '/flow' },
-        { key: 'features', href: '/#features' },
-        { key: 'solutions', href: '/#solutions' },
+        { key: 'features', href: '/features' },
+        { key: 'solutions', href: '/solutions' },
         { key: 'pricing', href: '/#pricing' },
         { key: 'about', href: '#about' },
         { key: 'contact', href: '#contact' }

@@ -431,6 +431,562 @@
             "contactSales": "Contact Sales"
         }
     },
+    "aiChat": {
+        "hero": {
+            "badge": "Powered by GPT-4 & Machine Learning",
+            "title": "AI Assistant that Thinks, Learns, and Sells for You",
+            "description": "Not just a regular chatbot. CHARM AI is a smart business partner that understands context, remembers customers, and proactively increases sales 24/7, even while you sleep.",
+            "features": {
+                "natural": "Natural Language",
+                "naturalDesc": "Human-like conversations",
+                "memory": "Conversation Memory",
+                "memoryDesc": "Remember every customer",
+                "instant": "Instant Response < 1s",
+                "instantDesc": "Faster than humans",
+                "smart": "Smart Follow-Up",
+                "smartDesc": "Proactively increase sales"
+            },
+            "cta": "Activate AI Free",
+            "mockup": {
+                "storeName": "Your Fashion Store",
+                "powered": "Online • Powered by CHARM AI",
+                "message1": "Hello, I want to order a jacket via shopee",
+                "message2": "Hello, to order a jacket via shopee please click here",
+                "orderButton": "Order via Shopee",
+                "message3": "Wow, Fast Response! I'll order right away."
+            }
+        },
+        "comparison": {
+            "title": "CHARM AI vs. Human CS Comparison",
+            "subtitle": "See how AI investment can provide unmatched cost efficiency and scale.",
+            "aspect": "Aspect",
+            "humanCS": "Human CS",
+            "charmAI": "CHARM AI",
+            "operational": "Operational Time",
+            "capacity": "Chat Capacity",
+            "response": "Response Time",
+            "cost": "Cost per Month",
+            "fatigue": "Fatigue / Sick",
+            "analytics": "Analytics & Reports"
+        },
+        "learning": {
+            "title1": "See AI Learning in",
+            "title2": "Real-Time",
+            "description": "You don't need coding. Just give information to our AI in plain language, and watch it immediately ready to answer your customer questions accurately. Training process only 10 minutes."
+        },
+        "steps": {
+            "title": "Activate Your AI in 3 Easy Steps",
+            "subtitle": "From connection to live, the process is designed to be fast and intuitive.",
+            "step1": {
+                "title": "Connect",
+                "description": "Scan QR code to connect your WhatsApp Business API number to CHARM platform."
+            },
+            "step2": {
+                "title": "Train",
+                "description": "Upload your business information (catalog, FAQ, contact info) for AI to learn."
+            },
+            "step3": {
+                "title": "Activate",
+                "description": "Turn on AI Chat and let your virtual assistant work serving customers 24/7."
+            }
+        },
+        "industries": {
+            "title": "Smart Solutions for Various Industries",
+            "subtitle": "CHARM AI has proven to increase efficiency and sales in various business sectors. See how we can help you.",
+            "tabs": {
+                "ecommerce": "E-Commerce",
+                "fnb": "F&B",
+                "clinic": "Clinic & Health",
+                "hotel": "Hotel & Tourism",
+                "professional": "Professional Services"
+            },
+            "followUp": {
+                "title": "Automatic Follow-Up, Increased Conversion",
+                "description": "Don't let potential buyers just leave. Our AI proactively follows up and answers product questions 24/7 to maximize every sales opportunity.",
+                "benefit1": "AI recommends products and does upselling.",
+                "benefit2": "Automatic abandoned cart follow up.",
+                "benefit3": "Answer questions about stock, variants, and shipping."
+            },
+            "mockup": {
+                "storeName": "Your Clothing Store",
+                "message1": "Hi, is the leather bag still available?",
+                "message2": "Sure! Ready in Black & Brown. Might also be interested in a matching leather wallet?"
+            }
+        },
+        "beyond": {
+            "title": "More Than Just a Regular Chatbot",
+            "subtitle": "CHARM AI is designed to be the core of your business operations, not just a message responder.",
+            "knowledge": {
+                "title": "Centralized Knowledge Base",
+                "description": "Train AI using PDF, URL, website, or directly write your product explanations and FAQ in minutes."
+            },
+            "memory": {
+                "title": "Memory & Context",
+                "description": "AI remembers previous conversations, enabling personal and continuous interactions."
+            },
+            "routing": {
+                "title": "Smart Routing",
+                "description": "AI can detect sentiment or complex keywords and route chat to the right human agent."
+            },
+            "proactive": {
+                "title": "Proactive Selling",
+                "description": "Not just answering. AI can do upselling, cross-selling, and follow-up prospects automatically."
+            }
+        },
+        "cta": {
+            "title": "Ready to Activate AI for Your Business?",
+            "subtitle": "Join thousands of businesses already using CHARM AI to serve customers better.",
+            "startFree": "Start Free Now",
+            "contactSales": "Contact Sales"
+        }
+    },
+    "flow": {
+        "hero": {
+            "title1": "Build WhatsApp Chat Flow",
+            "title2": "Automation",
+            "title3": "Without Coding",
+            "description": "Flow Maker: Design interactive conversations with drag & drop. Integrate AI, API, and database for powerful business automation.",
+            "ctaStart": "Start Free Now",
+            "ctaDemo": "See Demo"
+        },
+        "whatIs": {
+            "title": "What is Flow Maker?",
+            "subtitle": "Visual tools to create automatic chat flows in WhatsApp Business API. Build smart bots that can answer questions, collect data, and take actions without coding."
+        },
+        "features": {
+            "dragDrop": {
+                "title": "Drag & Drop Interface",
+                "description": "Build complex flows just by dragging, dropping, and clicking. Intuitive interface even for beginners."
+            },
+            "aiIntegration": {
+                "title": "AI Integration",
+                "description": "Combine with AI Chat for natural and smart responses based on your knowledge base."
+            },
+            "apiWebhook": {
+                "title": "API & Webhook",
+                "description": "Connect with external systems: CRM, database, payment gateway, or any API."
+            },
+            "preview": {
+                "title": "Real-Time Preview",
+                "description": "See chat simulation in WhatsApp view before publishing. Test and debug easily."
+            }
+        },
+        "example": {
+            "title": "Simple Flow Example",
+            "subtitle": "See how a product ordering flow looks in the editor and in WhatsApp",
+            "botName": "Flow Bot",
+            "onlinePowered": "Online • Powered by CHARM",
+            "productName": "Product A: Premium Plain Shirt",
+            "productPrice": "Price Rp 125,000. Comfortable material.",
+            "orderNow": "Order Now"
+        },
+        "useCases": {
+            "title": "Use Flow Maker For...",
+            "subtitle": "Various business scenarios that can be automated",
+            "ecommerce": {
+                "title": "E-commerce",
+                "item1": "Automatic ordering process",
+                "item2": "Real-time order tracking",
+                "item3": "Product upselling",
+                "item4": "Abandoned cart recovery"
+            },
+            "services": {
+                "title": "Services",
+                "item1": "Booking appointment",
+                "item2": "Initial consultation",
+                "item3": "Schedule reminders",
+                "item4": "Post-service follow-up"
+            },
+            "support": {
+                "title": "Customer Support",
+                "item1": "Automatic FAQ",
+                "item2": "Ticket management",
+                "item3": "Escalation to agent",
+                "item4": "Satisfaction survey"
+            },
+            "leadGen": {
+                "title": "Lead Generation",
+                "item1": "Collect prospect data",
+                "item2": "Lead qualification",
+                "item3": "Automatic scoring",
+                "item4": "Follow-up sequence"
+            }
+        },
+        "benefits": {
+            "title": "Why Use Flow Maker?",
+            "subtitle": "Transform your business with smart automation",
+            "timeSaver": {
+                "title": "Save Time",
+                "description": "Reduce response time from minutes to seconds. Bot answers repetitive questions automatically."
+            },
+            "costSaver": {
+                "title": "Save Costs",
+                "description": "One bot can handle hundreds of simultaneous chats. Operational efficiency up to 70%."
+            },
+            "increaseSales": {
+                "title": "Increase Sales",
+                "description": "Fast response = higher conversion. Don't let customers wait and go to competitors."
+            },
+            "satisfaction": {
+                "title": "High Satisfaction",
+                "description": "Serve customers 24/7 without fatigue. Increase rating and loyalty with instant responses."
+            }
+        },
+        "cta": {
+            "title": "Ready to Create Your First Flow?",
+            "subtitle": "Start automating your business now with Flow Maker",
+            "startFree": "Start Free Now",
+            "contactSales": "Contact Sales"
+        }
+    },
+    "featuresPage": {
+        "hero": {
+            "title": "One Platform, Unlimited Capabilities",
+            "subtitle": "All-in-One WhatsApp Marketing Platform with advanced AI technology, conversational e-commerce, broadcast automation, and integrated CRM. Designed for Indonesian businesses, increase closing rate up to 30%, save 70% support time, and scale sales without limits.",
+            "cta": "Try Free 7 Days - Instant Setup"
+        },
+        "platform": {
+            "waba": {
+                "title": "Green Check Verification (WABA)",
+                "description": "As an Official Meta Partner, we provide WhatsApp Business API (WABA) application services with free green check.",
+                "benefits": [
+                    "Increase brand credibility & trust",
+                    "Fast process 3-7 working days",
+                    "Guaranteed successful verification or money back"
+                ],
+                "cta": "See Price Packages"
+            },
+            "crm": {
+                "title": "Integrated Ticketing & CRM",
+                "description": "Manage every conversation as a ticket. Assign to team, track status, and ensure no customers are missed.",
+                "benefits": [
+                    "Sales pipeline (Lead, Follow Up, Closing)",
+                    "Team collaboration in one multi-agent inbox",
+                    "Auto-routing tickets based on keywords"
+                ],
+                "cta": "Explore CRM Features"
+            },
+            "api": {
+                "title": "API & Webhook Integration",
+                "description": "Connect CHARM with your external systems (ERP, CRM, etc) for powerful end-to-end automation.",
+                "benefits": [
+                    "Complete API documentation for developers",
+                    "No-code integration via Zapier & Sheets",
+                    "Webhooks for real-time events (incoming messages, etc)"
+                ],
+                "cta": "View API Documentation"
+            }
+        },
+        "store": {
+            "conversational": {
+                "title": "Conversational Commerce",
+                "description": "Customers can browse products, add to cart, and checkout directly in WhatsApp chat, without switching apps.",
+                "benefits": [
+                    "Dynamic product catalog in chat",
+                    "Frictionless checkout experience",
+                    "AI reminder for abandoned carts"
+                ],
+                "cta": "Try Demo Store"
+            },
+            "payment": {
+                "title": "Payment Gateway & Logistics",
+                "description": "Accept payments from all channels and automate shipping. From order to delivery, everything is managed.",
+                "benefits": [
+                    "Accept QRIS, E-Wallet, VA, Credit Card payments",
+                    "Automatic successful payment notification",
+                    "Shipping cost check & tracking integration"
+                ],
+                "cta": "See Payment Options"
+            },
+            "booking": {
+                "title": "Automatic Booking System",
+                "description": "Perfect for service businesses. Set schedules, time slots, and let customers book services directly from WhatsApp.",
+                "benefits": [
+                    "Multi-staff & multi-branch schedule management",
+                    "Automatic appointment reminder H-1",
+                    "Deposit or full payment upfront option"
+                ],
+                "cta": "See Booking Features"
+            }
+        },
+        "broadcast": {
+            "mass": {
+                "title": "Anti-Block Mass Broadcast",
+                "description": "Send promotions and updates to thousands of contacts safely using official API. Personalize messages for maximum engagement.",
+                "benefits": [
+                    "Meta-approved message templates",
+                    "Broadcast scheduling for optimal times",
+                    "Multimedia support (images, videos, PDF)"
+                ],
+                "cta": "See Broadcast Demo"
+            },
+            "segmentation": {
+                "title": "Contact Segmentation",
+                "description": "Create contact groups based on demographics, behavior, or custom tags to send the most relevant messages.",
+                "benefits": [
+                    "Dynamic segmentation rules",
+                    "Tag (Label) management system",
+                    "Auto-tagging based on chat behavior"
+                ],
+                "cta": "Learn Segmentation"
+            },
+            "analytics": {
+                "title": "Campaign Analytics",
+                "description": "Complete tracking of each campaign performance with detailed and easy-to-understand real-time reports.",
+                "benefits": [
+                    "Metrics sent, read, and replied",
+                    "Click-through rate (CTR) analysis",
+                    "Conversion analytics dashboard"
+                ],
+                "cta": "See Report Example"
+            }
+        },
+        "aiFlow": {
+            "aiChat": {
+                "title": "GPT-Based AI Chat",
+                "description": "Virtual assistant that responds to chat 24/7 with natural language. Understands context, remembers conversations, and is trained specifically with your business data.",
+                "benefits": [
+                    "Automatic follow-up to increase closing rate",
+                    "Handle thousands of simultaneous chats without delay",
+                    "Image recognition for contextual responses"
+                ],
+                "cta": "Learn AI Chat"
+            },
+            "flowBuilder": {
+                "title": "AI Flow Builder",
+                "description": "Create automatic conversation flows with drag & drop visual builder. No coding required to create complex chatbots.",
+                "benefits": [
+                    "Visual drag-and-drop interface",
+                    "Conditional branching logic",
+                    "API and Webhook integration in flow"
+                ],
+                "cta": "Explore Flow Builder"
+            },
+            "followUp": {
+                "title": "Automatic Follow-up",
+                "description": "Proactive AI that follows up with customers who haven't replied or checked out, significantly increasing conversion.",
+                "benefits": [
+                    "Smart timing algorithm",
+                    "Abandoned cart saver",
+                    "Multi-step follow-up sequence"
+                ],
+                "cta": "See How It Works"
+            }
+        },
+        "bottomCta": {
+            "title": "One Platform, Unlimited Capabilities",
+            "subtitle": "Join thousands of businesses that have increased their sales with CHARM",
+            "cta": "Try Free 7 Days - Instant Setup"
+        }
+    },
+    "solutionsPage": {
+        "hero": {
+            "badge": "INDUSTRY SOLUTIONS",
+            "title1": "Tailored Solutions for",
+            "title2": "Every Industry",
+            "subtitle": "From E-Commerce to Healthcare, we have WhatsApp Marketing solutions tailored to your specific industry needs. More than 10,000+ businesses from various sectors have experienced sales increases up to 300%."
+        },
+        "industries": {
+            "title": "Choose Your Industry",
+            "subtitle": "Each industry has unique challenges. We provide proven effective solutions for various business sectors.",
+            "cta": "Learn More",
+            "ecommerce": {
+                "title": "E-Commerce & Retail",
+                "description": "Full automation from catalog browsing to checkout all in one WhatsApp chat.",
+                "benefits": [
+                    "Abandoned cart recovery",
+                    "Automatic order tracking",
+                    "AI product recommendations"
+                ],
+                "stat1": "Conversion",
+                "stat2": "Repeat Order"
+            },
+            "fnb": {
+                "title": "Restaurant & F&B",
+                "description": "Table reservations, delivery orders, and loyalty programs in one platform.",
+                "benefits": [
+                    "Table reservation system",
+                    "Interactive digital menu",
+                    "Loyalty points tracking"
+                ],
+                "stat1": "Reservations",
+                "stat2": "Time Saved"
+            },
+            "healthcare": {
+                "title": "Clinic & Healthcare",
+                "description": "Appointment booking, consultation reminders, and integrated medical records.",
+                "benefits": [
+                    "Appointment scheduling",
+                    "Automatic H-1 reminders",
+                    "Telemedicine support"
+                ],
+                "stat1": "No-Show",
+                "stat2": "Satisfaction"
+            },
+            "property": {
+                "title": "Property & Real Estate",
+                "description": "Lead qualification, site visit scheduler, and automatic follow-up to closing.",
+                "benefits": [
+                    "AI lead scoring",
+                    "Virtual tour booking",
+                    "Payment plan calculator"
+                ],
+                "stat1": "Closing",
+                "stat2": "Lead Quality"
+            },
+            "education": {
+                "title": "Education & Courses",
+                "description": "Enrollment, trial class scheduling, and automatic tuition payments.",
+                "benefits": [
+                    "Trial class scheduling",
+                    "Tuition payment reminders",
+                    "Automatic progress reports"
+                ],
+                "stat1": "Enrollment",
+                "stat2": "Retention"
+            },
+            "professional": {
+                "title": "Professional Services",
+                "description": "Initial consultation, meeting scheduling, automatic quotations and proposals.",
+                "benefits": [
+                    "Consultation booking",
+                    "Auto quotation generator",
+                    "Contract e-signature"
+                ],
+                "stat1": "Leads",
+                "stat2": "Win Rate"
+            }
+        },
+        "howItHelps": {
+            "title": "How Does CHARM Help Your Business?",
+            "tabs": {
+                "ecommerce": "E-Commerce",
+                "fnb": "F&B",
+                "healthcare": "Healthcare",
+                "property": "Property",
+                "education": "Education"
+            },
+            "ecommerce": {
+                "mainTitle": "Increase E-Commerce Conversion Rate Up to 60%",
+                "description": "Don't let potential buyers just leave. Our AI proactively follows up on abandoned carts and provides personalized product recommendations.",
+                "feature1": {
+                    "title": "Abandoned Cart Recovery",
+                    "description": "Automatic reminders with special discounts for customers who haven't checked out. Increase recovery rate up to 35%."
+                },
+                "feature2": {
+                    "title": "AI Product Recommendations",
+                    "description": "Suggest products based on browsing history and purchase behavior. Automatic upselling increases AOV 40%."
+                },
+                "feature3": {
+                    "title": "Auto Order Tracking",
+                    "description": "Real-time shipping status updates directly to customer chat. Reduce \"where is my package?\" questions by 80%."
+                }
+            },
+            "fnb": {
+                "mainTitle": "Increase Restaurant Reservations Up to 80%",
+                "description": "24/7 automatic reservation system integrated with your table capacity and staff shifts.",
+                "feature1": {
+                    "title": "Table Reservation System",
+                    "description": "Customers can reserve tables directly from WhatsApp. System automatically checks availability and confirms."
+                },
+                "feature2": {
+                    "title": "Interactive Digital Menu",
+                    "description": "Digital menu with photos and complete descriptions. Customers can order directly without calling a waiter."
+                },
+                "feature3": {
+                    "title": "Loyalty Program",
+                    "description": "Points automatically accumulate with each transaction. Exclusive rewards and promos for loyal customers."
+                }
+            },
+            "healthcare": {
+                "mainTitle": "Reduce No-Shows Up to 40%",
+                "description": "Automatic appointment reminders and easy rescheduling system increase patient compliance.",
+                "feature1": {
+                    "title": "Appointment Reminder",
+                    "description": "Automatic reminders H-1 and H-0 via WhatsApp. Patients can reschedule with 1 click."
+                },
+                "feature2": {
+                    "title": "Online Registration",
+                    "description": "New patients can register and fill forms directly from WhatsApp. Save administrative time."
+                },
+                "feature3": {
+                    "title": "Telemedicine Support",
+                    "description": "Initial consultation via chat or video call. Prescriptions and lab results can be sent directly."
+                }
+            },
+            "property": {
+                "mainTitle": "3x Faster Property Closing",
+                "description": "Organized lead management and consistent follow-up make the closing process more efficient.",
+                "feature1": {
+                    "title": "AI Lead Scoring",
+                    "description": "AI automatically scores leads based on engagement and budget. Focus on the most potential prospects."
+                },
+                "feature2": {
+                    "title": "Site Visit Scheduler",
+                    "description": "Automatic viewing schedule with agent calendar. H-1 reminders for buyers and agents."
+                },
+                "feature3": {
+                    "title": "Payment Calculator",
+                    "description": "Mortgage simulation and payment plan directly in chat. Buyers can calculate installments according to budget."
+                }
+            },
+            "education": {
+                "mainTitle": "Increase Enrollment Up to 120%",
+                "description": "Easy registration process and routine communication with parents increase enrollment and retention.",
+                "feature1": {
+                    "title": "Trial Class Booking",
+                    "description": "Parents can book trial classes directly. Automatic reminders and feedback collection after trial."
+                },
+                "feature2": {
+                    "title": "Tuition Payment Reminder",
+                    "description": "Automatic tuition payment reminders with direct payment links. Reduce arrears by 70%."
+                },
+                "feature3": {
+                    "title": "Progress Report",
+                    "description": "Student progress reports automatically sent to parents each period. Transparency increases trust."
+                }
+            }
+        },
+        "implementation": {
+            "title": "Easy Implementation Process",
+            "subtitle": "From onboarding to go-live in just 7 days. We're ready to help every step of the way.",
+            "step1": {
+                "title": "Free Consultation",
+                "desc": "Our team will understand your business needs and goals"
+            },
+            "step2": {
+                "title": "Setup & Configuration",
+                "desc": "We help setup account, system integration, and train your team"
+            },
+            "step3": {
+                "title": "Testing & Optimization",
+                "desc": "Thorough testing and AI fine-tuning before launch"
+            },
+            "step4": {
+                "title": "Go Live & Support",
+                "desc": "Launch and ongoing 24/7 support from our expert team"
+            }
+        },
+        "testimonials": {
+            "title": "What Do Successful Users Say?",
+            "testimonial1": {
+                "title": "Owner, Dian Fashion Boutique",
+                "quote": "Since using CHARM, our online sales increased 200%! The AI can handle hundreds of chats simultaneously without delay. Customers are satisfied, we're happy!"
+            },
+            "testimonial2": {
+                "title": "Owner, Padang Sederhana Restaurant",
+                "quote": "Table reservations are now 24/7 automatic. No need to answer phone calls one by one. Delivery orders also increased 3x!"
+            },
+            "testimonial3": {
+                "title": "Director, Sehat Sentosa Clinic",
+                "quote": "Patient no-shows dropped drastically thanks to automatic reminders. Appointment booking became easier. Our admin staff can focus on other things!"
+            }
+        },
+        "bottomCta": {
+            "title": "Ready to Grow Your Business?",
+            "cta": "Free Consultation Now"
+        }
+    },
     "pricing": {
         "title": "Choose the Right Plan for Your Business",
         "subtitle": "Start free, upgrade anytime. All plans include access to our premium features.",

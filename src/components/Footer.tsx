@@ -17,6 +17,19 @@ export default function Footer() {
             <p className="text-gray-400 leading-relaxed mb-6">
               {t('footer.description')}
             </p>
+
+            {/* Meta Business Partner Badge */}
+            <div className="mb-6 inline-flex items-center space-x-3 bg-gradient-to-r from-blue-600 to-blue-700 px-4 py-3 rounded-lg border border-blue-500">
+              <svg className="w-6 h-6 text-white" viewBox="0 0 36 36" fill="currentColor">
+                <path d="M20.3 12.3l-3.7 3.7-3.7-3.7-1.4 1.4 3.7 3.7-3.7 3.7 1.4 1.4 3.7-3.7 3.7 3.7 1.4-1.4-3.7-3.7 3.7-3.7-1.4-1.4z" />
+                <circle cx="18" cy="18" r="16" fill="none" stroke="currentColor" strokeWidth="2" />
+              </svg>
+              <div>
+                <div className="text-xs text-blue-100 font-medium">Official Partner</div>
+                <div className="text-sm text-white font-bold">Meta Business</div>
+              </div>
+            </div>
+
             <div className="flex space-x-4">
               {['twitter', 'facebook', 'linkedin', 'instagram'].map((social) => (
                 <a
