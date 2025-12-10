@@ -315,7 +315,6 @@ export default function SolutionsPage() {
 
                     <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
                         {implementationSteps.map((step) => {
-                            const Icon = step.icon;
                             return (
                                 <div key={step.number} className="text-center">
                                     <div className="relative inline-block mb-6">
