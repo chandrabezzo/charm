@@ -1,18 +1,29 @@
 {
     "nav": {
+        "home": "Home",
+        "aiChat": "AI Chat",
+        "store": "Store",
+        "broadcast": "Broadcast",
+        "flow": "Flow",
+        "features": "Features",
+        "solutions": "Solutions",
+        "pricing": "Pricing",
+        "about": "About Us",
+        "contact": "Contact",
         "getStarted": "Get Started"
     },
     "hero": {
         "badge": "Elevate Your WhatsApp Commerce",
-        "title": "Transform Your Business with",
-        "titleHighlight": "WhatsApp Commerce",
-        "description": "Complete WhatsApp Business management platform with Meta Ads integration. Manage catalogs, accept payments, and grow your business—all from one powerful dashboard.",
+        "title": "Turn WhatsApp Into an",
+        "titleHighlight": "AI Sales Machine 24/7",
+        "description": "Most complete WhatsApp Business API platform with 50+ premium features. AI Chat GPT-4, Online Store, Mass Broadcast, CRM, and Automation in one powerful dashboard.",
         "startTrial": "Start Free Trial",
         "watchDemo": "Watch Demo",
         "stats": {
             "activeBusinesses": "Active Businesses",
-            "dailyTransactions": "Daily Transactions",
-            "satisfactionRate": "Satisfaction Rate"
+            "growth": "Growth",
+            "support": "AI Support",
+            "features": "Premium Features"
         },
         "dashboard": {
             "whatsappConnected": "WhatsApp Connected",
@@ -178,5 +189,196 @@
         "todayRevenue": "Rp 198,500,000",
         "monthlyProcessed": "Rp 800M+",
         "totalProcessed": "Rp 800M+"
+    },
+    "stats": {
+        "activeUsers": {
+            "value": "10K+",
+            "label": "Active Businesses"
+        },
+        "growth": {
+            "value": "300%",
+            "label": "Sales Growth"
+        },
+        "support": {
+            "value": "24/7",
+            "label": "AI Support"
+        },
+        "features": {
+            "value": "50+",
+            "label": "Premium Features"
+        }
+    },
+    "detailedFeatures": {
+        "title": "One Platform, Limitless Capabilities",
+        "subtitle": "50+ complete features for your business digital transformation",
+        "categories": {
+            "ai": "AI & Automation",
+            "store": "CHARM Store",
+            "platform": "Platform & Services"
+        },
+        "aiChat": {
+            "title": "AI Chat GPT-4",
+            "description": "AI assistant that learns from your business. Handle thousands of customer conversations simultaneously with natural and personal responses.",
+            "feature1": "36% automatic follow-up rate",
+            "feature2": "Handle thousands of simultaneous chats",
+            "feature3": "Product answer configuration"
+        },
+        "store": {
+            "title": "CHARM Store",
+            "description": "Integrated online store on WhatsApp. Customers can browse, order, pay, and track - all within one chat.",
+            "feature1": "Unlimited catalog with variants",
+            "feature2": "Integrated payment gateway",
+            "feature3": "Auto shipping with courier"
+        },
+        "broadcast": {
+            "title": "Smart Broadcast",
+            "description": "Send thousands of promotional messages with official WhatsApp API. Personalize & segment for each customer with maximum ROI.",
+            "feature1": "Send via official API",
+            "feature2": "Smart audience segmentation",
+            "feature3": "Complete real-time analytics"
+        },
+        "flowBuilder": {
+            "title": "Visual Flow Builder",
+            "description": "Build complex automation without coding. Drag & drop to design powerful and effective customer journeys.",
+            "feature1": "50+ ready-made templates",
+            "feature2": "Conditional branching",
+            "feature3": "A/B testing flows"
+        },
+        "crm": {
+            "title": "CRM & Ticketing",
+            "description": "Manage customers & team in one dashboard. Sales pipeline, multi-agent, and complete reporting to maximize conversion.",
+            "feature1": "Pipeline: Lead > Follow Up > Closing",
+            "feature2": "Multi-agent collaboration",
+            "feature3": "Auto-routing by keyword"
+        },
+        "analytics": {
+            "title": "Advanced Analytics",
+            "description": "Analytics dashboard with AI insights. Monitor team performance, AI effectiveness, campaign ROI, and sales predictions."
+        },
+        "commerce": {
+            "title": "Conversational Commerce",
+            "description": "Customers can browse, inquire and checkout directly in WhatsApp chat, without switching apps."
+        },
+        "booking": {
+            "title": "Automated Booking System",
+            "description": "Perfect for service businesses. Schedule appointments, set time slots, and manage customer bookings directly from WhatsApp."
+        },
+        "payment": {
+            "title": "Payment Gateway & Logistics",
+            "description": "Accept payments from all channels synced instantly. Auto shipping rates, everything automated."
+        },
+        "verification": {
+            "title": "Green Check Verification",
+            "description": "As an Official Meta Partner, we help businesses get WhatsApp Business API (WABA) verification with free blue checkmark."
+        },
+        "integration": {
+            "title": "API & Webhook Integration",
+            "description": "Connect CHARM with your ERP, CRM, APIs for powerful end-to-end automation."
+        }
+    },
+    "solutions": {
+        "title": "Smart Solutions for Various Industries",
+        "subtitle": "Choose the package that suits your business needs",
+        "industries": {
+            "ecommerce": "E-Commerce",
+            "fnb": "F&B",
+            "retail": "Retail",
+            "insurance": "Finance",
+            "construction": "Construction",
+            "education": "Education",
+            "property": "Property"
+        },
+        "content": {
+            "ecommerce": {
+                "title": "Automated Follow-Up, Increased Conversion",
+                "description": "Don't let interested prospects slip away. Our AI sends automatic follow-ups to maximize abandoned cart conversion and push your products.",
+                "feature1": "AI recommends products and upselling.",
+                "feature2": "Automatic follow up on shopping carts."
+            },
+            "fnb": {
+                "title": "Automated Orders, Maximum Service",
+                "description": "Accept food and beverage orders directly from WhatsApp with automated table booking system and real-time delivery tracking.",
+                "feature1": "Automated ordering system with digital menu.",
+                "feature2": "Integration with online drivers."
+            },
+            "retail": {
+                "title": "Digital Store on WhatsApp",
+                "description": "Transform WhatsApp into a complete online store with product catalog, automated payments, and integrated stock management.",
+                "feature1": "Product catalog with complete variants.",
+                "feature2": "Automated stock and promo notifications."
+            },
+            "insurance": {
+                "title": "24/7 Customer Service",
+                "description": "AI Chat serves customer inquiries, claims, and insurance/finance product consultations automatically and accurately.",
+                "feature1": "Automated document verification with AI.",
+                "feature2": "Automated premium payment follow up."
+            },
+            "construction": {
+                "title": "Manage Projects from WhatsApp",
+                "description": "Team coordination, project progress updates, and client communication all from one powerful WhatsApp platform.",
+                "feature1": "Broadcast project updates to stakeholders.",
+                "feature2": "Automated photo documentation and reports."
+            },
+            "education": {
+                "title": "Automated Registration & Information",
+                "description": "New student registration, tuition payments, and academic information all can be done through WhatsApp.",
+                "feature1": "Bill notifications and class schedules.",
+                "feature2": "FAQ bot for parents and students."
+            },
+            "property": {
+                "title": "Close Properties Faster",
+                "description": "Lead management, viewing schedules, prospect follow up, to closing deals all well managed on WhatsApp.",
+                "feature1": "Property catalog with virtual tour.",
+                "feature2": "Automated viewing schedule reminders."
+            }
+        },
+        "demo": {
+            "assistantName": "AI Assistant CHARM",
+            "onlinePowered": "Online • Powered by GPT-4",
+            "message1": "Hi, I want to order a jacket via shopee",
+            "message2": "Sure! Here are the colors we have...",
+            "message3": "Rp 500,000, there's a 10% discount today!",
+            "cta": "Ok, I want to order the black one",
+            "message4": "Alright, how many would you like to order?"
+        }
+    },
+    "pricing": {
+        "title": "Choose the Right Plan for Your Business",
+        "subtitle": "Start free, upgrade anytime. All plans include access to our premium features.",
+        "perMonth": "month",
+        "mostPopular": "Most Popular",
+        "getStarted": "Get Started",
+        "needHelp": "Need help choosing the right plan?",
+        "contactSales": "Contact Sales Team",
+        "starter": {
+            "name": "Starter",
+            "description": "Perfect for small businesses just starting out",
+            "feature1": "1 WhatsApp Number",
+            "feature2": "AI Chat GPT-4 Basic",
+            "feature3": "1,000 Broadcasts/month",
+            "feature4": "Product Catalog (100 products)",
+            "feature5": "Analytics Dashboard"
+        },
+        "professional": {
+            "name": "Professional",
+            "description": "For businesses looking to scale up with full features",
+            "feature1": "3 WhatsApp Numbers",
+            "feature2": "AI Chat GPT-4 Advanced",
+            "feature3": "10,000 Broadcasts/month",
+            "feature4": "Unlimited Catalog",
+            "feature5": "CRM & Ticketing",
+            "feature6": "Visual Flow Builder"
+        },
+        "enterprise": {
+            "name": "Enterprise",
+            "description": "Custom solution for large companies",
+            "feature1": "Unlimited WhatsApp Numbers",
+            "feature2": "AI Chat Custom Training",
+            "feature3": "Unlimited Broadcasts",
+            "feature4": "Dedicated Account Manager",
+            "feature5": "Custom API Integration",
+            "feature6": "Priority Support 24/7",
+            "feature7": "On-premise Deployment"
+        }
     }
 }

@@ -1,18 +1,29 @@
 {
     "nav": {
+        "home": "Beranda",
+        "aiChat": "AI Chat",
+        "store": "Toko",
+        "broadcast": "Broadcast",
+        "flow": "Flow",
+        "features": "Fitur",
+        "solutions": "Solusi",
+        "pricing": "Harga",
+        "about": "Tentang Kami",
+        "contact": "Kontak",
         "getStarted": "Mulai Sekarang"
     },
     "hero": {
         "badge": "Tingkatkan WhatsApp Commerce Anda",
-        "title": "Transformasikan Bisnis Anda dengan",
-        "titleHighlight": "WhatsApp Commerce",
-        "description": "Platform manajemen WhatsApp Business lengkap dengan integrasi Meta Ads. Kelola katalog, terima pembayaran, dan kembangkan bisnis Anda—semua dari satu dashboard yang powerful.",
+        "title": "Ubah WhatsApp Jadi Mesin",
+        "titleHighlight": "Penjualan AI Otomatis 24/7",
+        "description": "Platform WhatsApp Business API terlengkap dengan 50+ fitur premium. AI Chat GPT-4, Toko Online, Broadcast Massal, CRM, dan Automasi dalam satu dashboard powerful.",
         "startTrial": "Mulai Uji Coba Gratis",
         "watchDemo": "Tonton Demo",
         "stats": {
             "activeBusinesses": "Bisnis Aktif",
-            "dailyTransactions": "Transaksi Harian",
-            "satisfactionRate": "Tingkat Kepuasan"
+            "growth": "Peningkatan",
+            "support": "Dukungan AI",
+            "features": "Fitur Premium"
         },
         "dashboard": {
             "whatsappConnected": "WhatsApp Terhubung",
@@ -178,5 +189,196 @@
         "todayRevenue": "Rp 198.500.000",
         "monthlyProcessed": "Rp 800M+",
         "totalProcessed": "Rp 800M+"
+    },
+    "stats": {
+        "activeUsers": {
+            "value": "10K+",
+            "label": "Bisnis Aktif"
+        },
+        "growth": {
+            "value": "300%",
+            "label": "Peningkatan Penjualan"
+        },
+        "support": {
+            "value": "24/7",
+            "label": "Dukungan AI"
+        },
+        "features": {
+            "value": "50+",
+            "label": "Fitur Premium"
+        }
+    },
+    "detailedFeatures": {
+        "title": "Satu Platform, Kemampuan Tanpa Batas",
+        "subtitle": "50+ fitur lengkap untuk transformasi digital bisnis Anda",
+        "categories": {
+            "ai": "AI & Automasi",
+            "store": "CHARM Store",
+            "platform": "Platform & Layanan"
+        },
+        "aiChat": {
+            "title": "AI Chat GPT-4",
+            "description": "Asisten AI yang belajar dari bisnis Anda. Tangani ribuan percakapan pelanggan secara bersamaan dengan respons natural dan personal.",
+            "feature1": "Follow-up otomatis tingkat 36%",
+            "feature2": "Handle ribuan chat simultan",
+            "feature3": "Pengaturan jawaban produk"
+        },
+        "store": {
+            "title": "CHARM Store",
+            "description": "Toko online terintegrasi di WhatsApp. Customer bisa browse, order, bayar, hingga tracking - semua dalam satu chat.",
+            "feature1": "Katalog unlimited dengan varian",
+            "feature2": "Payment gateway terintegrasi",
+            "feature3": "Auto shipping dengan kurir"
+        },
+        "broadcast": {
+            "title": "Smart Broadcast",
+            "description": "Kirim ribuan pesan promosi dengan API resmi WhatsApp. Personalisasi & segmentasi untuk tiap pelanggan dengan maksimal ROI.",
+            "feature1": "Kirim sampai dengan API resmi",
+            "feature2": "Segmentasi audience pintar",
+            "feature3": "Analytics real-time lengkap"
+        },
+        "flowBuilder": {
+            "title": "Visual Flow Builder",
+            "description": "Buat otomasi kompleks tanpa coding. Drag & drop untuk merancang customer journey yang powerful dan efektif.",
+            "feature1": "50+ template siap pakai",
+            "feature2": "Conditional branching",
+            "feature3": "A/B testing flows"
+        },
+        "crm": {
+            "title": "CRM & Ticketing",
+            "description": "Kelola customer & tim dalam satu dashboard. Pipeline sales, multi-agent, dan reporting lengkap untuk maksimalkan konversi.",
+            "feature1": "Pipeline: Lead > Follow Up > Closing",
+            "feature2": "Multi-agent collaboration",
+            "feature3": "Auto-routing by keyword"
+        },
+        "analytics": {
+            "title": "Advanced Analytics",
+            "description": "Dashboard analytics dengan AI insights. Pantau performa tim, efektivitas AI, ROI campaign, dan prediksi penjualan."
+        },
+        "commerce": {
+            "title": "Conversational Commerce",
+            "description": "Pelanggan bisa browse, tembak dan checkout langsung di dalam chat WhatsApp, tanpa pindah aplikasi."
+        },
+        "booking": {
+            "title": "Sistem Booking Otomatis",
+            "description": "Sempurna untuk bisnis jasa. Atur jadwal, beri waktu, dan kelola pelanggan booking layanan langsung dari WhatsApp."
+        },
+        "payment": {
+            "title": "Payment Gateway & Logistik",
+            "description": "Terima pembayaran dari semua channel cepat disinkronkan langsung. Ongkir otomatis, semua serba otomatis."
+        },
+        "verification": {
+            "title": "Verifikasi Centang Hijau",
+            "description": "Sebagai Official Meta Partner, kami memudahkan bisnis mendapatkan verifikasi WhatsApp Business API (WAB) dengan centang biru gratis."
+        },
+        "integration": {
+            "title": "Integrasi API & Webhook",
+            "description": "Hubungkan CHARM dengan sistem ERP, CRM, API untuk otomatisasi end-to-end yang powerful."
+        }
+    },
+    "solutions": {
+        "title": "Solusi Cerdas untuk Berbagai Industri",
+        "subtitle": "Pilih paket yang sesuai dengan kebutuhan bisnis Anda",
+        "industries": {
+            "ecommerce": "E-Commerce",
+            "fnb": "F&B",
+            "retail": "Retail",
+            "insurance": "Keuangan",
+            "construction": "Konstruksi",
+            "education": "Pendidikan",
+            "property": "Properti"
+        },
+        "content": {
+            "ecommerce": {
+                "title": "Follow-Up Otomatis, Konversi Meningkat",
+                "description": "Jangan biarkan calon pembeli yang tertarik pecah. AI kami mengirim follow-up otomatis untuk meningkatkan konversi yang ditinggalkan ke maksimum produk Anda untuk didorong.",
+                "feature1": "AI merekomendasikan produk dan upselling.",
+                "feature2": "Follow up otomatis terhadap keranjang belanja."
+            },
+            "fnb": {
+                "title": "Pesanan Otomatis, Pelayanan Maksimal",
+                "description": "Terima pesanan makanan dan minuman langsung dari WhatsApp dengan sistem booking meja otomatis dan tracking pengiriman real-time.",
+                "feature1": "Sistem pemesanan otomatis dengan menu digital.",
+                "feature2": "Integrasi dengan driver ojek online."
+            },
+            "retail": {
+                "title": "Toko Digital di WhatsApp",
+                "description": "Ubah WhatsApp menjadi toko online lengkap dengan katalog produk, pembayaran otomatis, dan manajemen stok terintegrasi.",
+                "feature1": "Katalog produk dengan varian lengkap.",
+                "feature2": "Notifikasi stok dan promo otomatis."
+            },
+            "insurance": {
+                "title": "Layanan Nasabah 24/7",
+                "description": "AI Chat melayani pertanyaan nasabah, klaim, dan konsultasi produk asuransi/keuangan secara otomatis dan akurat.",
+                "feature1": "Verifikasi dokumen otomatis dengan AI.",
+                "feature2": "Follow up pembayaran premi otomatis."
+            },
+            "construction": {
+                "title": "Kelola Proyek dari WhatsApp",
+                "description": "Koordinasi tim, update progres proyek, dan komunikasi dengan klien semua dari satu platform WhatsApp yang powerful.",
+                "feature1": "Broadcast update proyek ke stakeholder.",
+                "feature2": "Dokumentasi foto dan laporan otomatis."
+            },
+            "education": {
+                "title": "Pendaftaran & Informasi Otomatis",
+                "description": "Sistem pendaftaran siswa baru, pembayaran SPP, dan informasi akademik semua bisa dilakukan lewat WhatsApp.",
+                "feature1": "Notifikasi tagihan dan jadwal pelajaran.",
+                "feature2": "Bot FAQ untuk orang tua dan siswa."
+            },
+            "property": {
+                "title": "Closing Properti Lebih Cepat",
+                "description": "Lead management, jadwal viewing, follow up prospek, hingga closing deal semua terkelola dengan baik di WhatsApp.",
+                "feature1": "Katalog properti dengan virtual tour.",
+                "feature2": "Reminder jadwal viewing otomatis."
+            }
+        },
+        "demo": {
+            "assistantName": "AI Assistant CHARM",
+            "onlinePowered": "Online • Powered by GPT-4",
+            "message1": "Halo, saya mau order jeket via shopee dong kak",
+            "message2": "Tentu! Berikut warna kita ada...",
+            "message3": "Rp 500.000, ada diskon 10% hari ini!",
+            "cta": "Oke, saya mau pesan yang hitam",
+            "message4": "Baik, jumlah kak ini pembelinya?"
+        }
+    },
+    "pricing": {
+        "title": "Pilih Paket yang Tepat untuk Bisnis Anda",
+        "subtitle": "Mulai gratis, upgrade kapan saja. Semua paket termasuk akses ke fitur unggulan kami.",
+        "perMonth": "bulan",
+        "mostPopular": "Paling Populer",
+        "getStarted": "Mulai Sekarang",
+        "needHelp": "Butuh bantuan memilih paket yang tepat?",
+        "contactSales": "Hubungi Tim Sales",
+        "starter": {
+            "name": "Starter",
+            "description": "Sempurna untuk bisnis kecil yang baru memulai",
+            "feature1": "1 Nomor WhatsApp",
+            "feature2": "AI Chat GPT-4 Basic",
+            "feature3": "1.000 Broadcast/bulan",
+            "feature4": "Katalog Produk (100 produk)",
+            "feature5": "Dashboard Analytics"
+        },
+        "professional": {
+            "name": "Professional",
+            "description": "Untuk bisnis yang ingin scale up dengan fitur lengkap",
+            "feature1": "3 Nomor WhatsApp",
+            "feature2": "AI Chat GPT-4 Advanced",
+            "feature3": "10.000 Broadcast/bulan",
+            "feature4": "Katalog Unlimited",
+            "feature5": "CRM & Ticketing",
+            "feature6": "Visual Flow Builder"
+        },
+        "enterprise": {
+            "name": "Enterprise",
+            "description": "Solusi custom untuk perusahaan besar",
+            "feature1": "Unlimited Nomor WhatsApp",
+            "feature2": "AI Chat Custom Training",
+            "feature3": "Unlimited Broadcast",
+            "feature4": "Dedicated Account Manager",
+            "feature5": "Custom Integration API",
+            "feature6": "Priority Support 24/7",
+            "feature7": "On-premise Deployment"
+        }
     }
 }
