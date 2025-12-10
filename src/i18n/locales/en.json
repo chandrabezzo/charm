@@ -283,9 +283,6 @@
             "ecommerce": "E-Commerce",
             "fnb": "F&B",
             "retail": "Retail",
-            "insurance": "Finance",
-            "construction": "Construction",
-            "education": "Education",
             "property": "Property"
         },
         "content": {
@@ -307,24 +304,6 @@
                 "feature1": "Product catalog with complete variants.",
                 "feature2": "Automated stock and promo notifications."
             },
-            "insurance": {
-                "title": "24/7 Customer Service",
-                "description": "AI Chat serves customer inquiries, claims, and insurance/finance product consultations automatically and accurately.",
-                "feature1": "Automated document verification with AI.",
-                "feature2": "Automated premium payment follow up."
-            },
-            "construction": {
-                "title": "Manage Projects from WhatsApp",
-                "description": "Team coordination, project progress updates, and client communication all from one powerful WhatsApp platform.",
-                "feature1": "Broadcast project updates to stakeholders.",
-                "feature2": "Automated photo documentation and reports."
-            },
-            "education": {
-                "title": "Automated Registration & Information",
-                "description": "New student registration, tuition payments, and academic information all can be done through WhatsApp.",
-                "feature1": "Bill notifications and class schedules.",
-                "feature2": "FAQ bot for parents and students."
-            },
             "property": {
                 "title": "Close Properties Faster",
                 "description": "Lead management, viewing schedules, prospect follow up, to closing deals all well managed on WhatsApp.",
@@ -340,6 +319,116 @@
             "message3": "Rp 500,000, there's a 10% discount today!",
             "cta": "Ok, I want to order the black one",
             "message4": "Alright, how many would you like to order?"
+        }
+    },
+    "store": {
+        "hero": {
+            "badge": "CHARM STORE - E-COMMERCE SOLUTION",
+            "title1": "Integrated Online Store",
+            "title2": "WhatsApp Integration",
+            "title3": "for Modern Business",
+            "description": "Transform WhatsApp into a powerful online store with product catalog, booking system, payment gateway, and automatic checkout. Increase sales up to 5x!",
+            "feature1": "Unlimited product catalog",
+            "feature2": "Integrated checkout & payment gateway",
+            "feature3": "Automated booking & appointment system",
+            "feature4": "Real-time inventory management",
+            "ctaFree": "Try Free for 30 Days",
+            "ctaDemo": "See Store Demo"
+        },
+        "mockup": {
+            "storeName": "CHARM Store",
+            "online": "Online",
+            "greeting": "Hello! Welcome to Our Store! 👋",
+            "customerMessage": "Please select a product...",
+            "productName": "Premium Product",
+            "productPrice": "Rp 299,000",
+            "orderButton": "I want to order 2 pcs",
+            "orderConfirm": "Sure! Total order: Rp 598,000",
+            "bookingTitle": "Booking System",
+            "bookingAvailable": "Available 24/7"
+        },
+        "featuresSection": {
+            "title": "Complete Features for Your Online Store",
+            "subtitle": "Everything you need to run a modern online business, integrated in one platform."
+        },
+        "features": {
+            "webStore": {
+                "title": "Professional Web Store",
+                "description": "Modern, responsive, and fast online store. Free subdomain and hosting. Customizable design."
+            },
+            "mobileOptimized": {
+                "title": "Mobile Optimized",
+                "description": "100% responsive on all devices. Super fast loading. Smooth user experience for mobile-first customers."
+            },
+            "orderViaWhatsApp": {
+                "title": "Order via WhatsApp",
+                "description": "Customers can order directly via chat. Automatically entered into dashboard. No manual input needed."
+            },
+            "paymentGateway": {
+                "title": "Payment Gateway",
+                "description": "Integrated with local payment gateway. Bank transfer, e-wallet, credit card, to QRIS. Everything is available."
+            },
+            "inventory": {
+                "title": "Inventory Management",
+                "description": "Easily manage product stock. Auto-update stock. Notification when stock is low. Complete reports."
+            },
+            "shipping": {
+                "title": "Shipping Integration",
+                "description": "Integrated with local courier. Automatic shipping cost check. Tracking number. Real-time shipping status updates."
+            }
+        },
+        "integrations": {
+            "title": "Integration with Tools You Use",
+            "subtitle": "CHARM Store integrates seamlessly with various platforms for more efficient business operations.",
+            "whatsapp": {
+                "title": "WhatsApp Business API",
+                "description": "All orders from online store go directly to WhatsApp. Chat with customers, follow-up, send notifications - all in one application.",
+                "feature1": "Real-time order notification",
+                "feature2": "Integrated customer chat",
+                "feature3": "Broadcast promos to customers"
+            },
+            "payment": {
+                "title": "Local Payment Gateway",
+                "description": "Accept payments from various methods. Bank transfer, popular e-wallet, credit card, to QRIS. Everything is automatically recorded.",
+                "feature1": "E-wallet (GoPay, OVO, Dana)",
+                "feature2": "Credit/Debit Card",
+                "feature3": "QRIS for all banks & e-wallets"
+            }
+        },
+        "conversational": {
+            "title": "Conversational Commerce in Action",
+            "subtitle": "See how customers can shop directly from WhatsApp chat without leaving the app.",
+            "chatName": "Fashion Store",
+            "onlineNow": "Online now",
+            "message1": "Hi, do you have couple t-shirts?",
+            "message2": "Hi! Yes we do 😊\nWe have couple t-shirt collections: 1. Casual Couple - Rp 120K, 2. Premium Couple - Rp 180K. Want to see the catalog?",
+            "message3": "Can I get the Casual one, do you have black?",
+            "message4": "Yes! Casual Couple in black is ready. Want to order?",
+            "message5": "Order please, size M",
+            "whyPowerful": "Why Conversational Commerce is Powerful?",
+            "description": "Customers don't need to leave the chat, register an account, or fill out long forms. Just natural chat, and transactions happen smoothly!",
+            "benefit1": {
+                "title": "Higher conversion",
+                "description": "Super simple checkout process, abandoned cart rate drops drastically."
+            },
+            "benefit2": {
+                "title": "Better customer experience",
+                "description": "Shop while chatting, can ask questions directly."
+            },
+            "benefit3": {
+                "title": "Increased trust",
+                "description": "Personal interaction makes customers more trusting."
+            },
+            "benefit4": {
+                "title": "Easier repeat orders",
+                "description": "Customers just chat \"order again\" without hassle."
+            }
+        },
+        "cta": {
+            "title": "Ready to Launch Your Online Store?",
+            "subtitle": "Join thousands of businesses using CHARM Store to increase their sales.",
+            "startFree": "Start Free Now",
+            "contactSales": "Contact Sales"
         }
     },
     "pricing": {

@@ -283,9 +283,6 @@
             "ecommerce": "E-Commerce",
             "fnb": "F&B",
             "retail": "Retail",
-            "insurance": "Keuangan",
-            "construction": "Konstruksi",
-            "education": "Pendidikan",
             "property": "Properti"
         },
         "content": {
@@ -307,24 +304,6 @@
                 "feature1": "Katalog produk dengan varian lengkap.",
                 "feature2": "Notifikasi stok dan promo otomatis."
             },
-            "insurance": {
-                "title": "Layanan Nasabah 24/7",
-                "description": "AI Chat melayani pertanyaan nasabah, klaim, dan konsultasi produk asuransi/keuangan secara otomatis dan akurat.",
-                "feature1": "Verifikasi dokumen otomatis dengan AI.",
-                "feature2": "Follow up pembayaran premi otomatis."
-            },
-            "construction": {
-                "title": "Kelola Proyek dari WhatsApp",
-                "description": "Koordinasi tim, update progres proyek, dan komunikasi dengan klien semua dari satu platform WhatsApp yang powerful.",
-                "feature1": "Broadcast update proyek ke stakeholder.",
-                "feature2": "Dokumentasi foto dan laporan otomatis."
-            },
-            "education": {
-                "title": "Pendaftaran & Informasi Otomatis",
-                "description": "Sistem pendaftaran siswa baru, pembayaran SPP, dan informasi akademik semua bisa dilakukan lewat WhatsApp.",
-                "feature1": "Notifikasi tagihan dan jadwal pelajaran.",
-                "feature2": "Bot FAQ untuk orang tua dan siswa."
-            },
             "property": {
                 "title": "Closing Properti Lebih Cepat",
                 "description": "Lead management, jadwal viewing, follow up prospek, hingga closing deal semua terkelola dengan baik di WhatsApp.",
@@ -340,6 +319,116 @@
             "message3": "Rp 500.000, ada diskon 10% hari ini!",
             "cta": "Oke, saya mau pesan yang hitam",
             "message4": "Baik, jumlah kak ini pembelinya?"
+        }
+    },
+    "store": {
+        "hero": {
+            "badge": "CHARM STORE - SOLUSI E-COMMERCE",
+            "title1": "Toko Online",
+            "title2": "Terintegrasi WhatsApp",
+            "title3": "untuk Bisnis Modern",
+            "description": "Ubah WhatsApp menjadi toko online powerful dengan katalog produk, sistem booking, payment gateway, dan checkout otomatis. Tingkatkan penjualan hingga 5x lipat!",
+            "feature1": "Katalog produk unlimited",
+            "feature2": "Checkout & payment gateway terintegrasi",
+            "feature3": "Sistem booking & appointment otomatis",
+            "feature4": "Inventory management real-time",
+            "ctaFree": "Coba Gratis 30 Hari",
+            "ctaDemo": "Lihat Demo Store"
+        },
+        "mockup": {
+            "storeName": "CHARM Store",
+            "online": "Online",
+            "greeting": "Halo! Selamat datang di Toko Kami! 👋",
+            "customerMessage": "Silakan pilih produk...",
+            "productName": "Produk Premium",
+            "productPrice": "Rp 299.000",
+            "orderButton": "Saya mau order 2 pcs",
+            "orderConfirm": "Baik! Total pesanan: Rp 598.000",
+            "bookingTitle": "Booking System",
+            "bookingAvailable": "Available 24/7"
+        },
+        "featuresSection": {
+            "title": "Fitur Lengkap untuk Toko Online Anda",
+            "subtitle": "Semua yang Anda butuhkan untuk menjalankan bisnis online modern, terintegrasi dalam satu platform."
+        },
+        "features": {
+            "webStore": {
+                "title": "Web Store Profesional",
+                "description": "Toko online modern, responsif, dan cepat. Gratis subdomain dan hosting. Desain bisa dikustomisasi."
+            },
+            "mobileOptimized": {
+                "title": "Mobile Optimized",
+                "description": "100% responsif di semua device. Loading super cepat. User experience yang smooth untuk pelanggan mobile-first."
+            },
+            "orderViaWhatsApp": {
+                "title": "Order via WhatsApp",
+                "description": "Pelanggan bisa order langsung via chat. Otomatis masuk dashboard. Tidak perlu input manual."
+            },
+            "paymentGateway": {
+                "title": "Payment Gateway",
+                "description": "Terintegrasi dengan payment gateway lokal. Transfer bank, e-wallet, kartu kredit, hingga QRIS. Semua ada."
+            },
+            "inventory": {
+                "title": "Inventory Management",
+                "description": "Kelola stok produk dengan mudah. Auto-update stock. Notifikasi jika stock menipis. Laporan lengkap."
+            },
+            "shipping": {
+                "title": "Shipping Integration",
+                "description": "Terintegrasi dengan ekspedisi lokal. Cek ongkir otomatis. Tracking resi. Update status pengiriman real-time."
+            }
+        },
+        "integrations": {
+            "title": "Integrasi dengan Tools yang Anda Gunakan",
+            "subtitle": "CHARM Store terintegrasi seamless dengan berbagai platform untuk operasional bisnis yang lebih efisien.",
+            "whatsapp": {
+                "title": "WhatsApp Business API",
+                "description": "Semua order dari toko online langsung masuk ke WhatsApp. Chat dengan pelanggan, follow-up, kirim notifikasi - semua dalam satu aplikasi.",
+                "feature1": "Order notification real-time",
+                "feature2": "Chat pelanggan terintegrasi",
+                "feature3": "Broadcast promo ke customer"
+            },
+            "payment": {
+                "title": "Payment Gateway Lokal",
+                "description": "Terima pembayaran dari berbagai metode. Transfer bank, e-wallet populer, kartu kredit, hingga QRIS. Semua otomatis tercatat.",
+                "feature1": "E-wallet (GoPay, OVO, Dana)",
+                "feature2": "Kartu Kredit/Debit",
+                "feature3": "QRIS untuk semua bank & e-wallet"
+            }
+        },
+        "conversational": {
+            "title": "Conversational Commerce dalam Aksi",
+            "subtitle": "Lihat bagaimana pelanggan bisa belanja langsung dari chat WhatsApp tanpa perlu keluar aplikasi.",
+            "chatName": "Toko Fashion Kita",
+            "onlineNow": "Online sekarang",
+            "message1": "Halo, ada kaos couple gak?",
+            "message2": "Hai! Ada dong 😊\nKami punya koleksi kaos couple: 1. Couple Casual - Rp 120K, 2. Couple Premium - Rp 180K. Mau lihat katalognya?",
+            "message3": "Boleh yang Casual, ada warna hitam?",
+            "message4": "Ada! Couple Casual warna hitam ready. Mau pesan?",
+            "message5": "Pesan dong, size M",
+            "whyPowerful": "Kenapa Conversational Commerce Powerful?",
+            "description": "Pelanggan tidak perlu keluar dari chat, register akun, atau mengisi form panjang. Cukup chat natural, dan transaksi terjadi dengan mulus!",
+            "benefit1": {
+                "title": "Konversi lebih tinggi",
+                "description": "Proses checkout super simpel, tingkat abandoned cart turun drastis."
+            },
+            "benefit2": {
+                "title": "Customer experience lebih baik",
+                "description": "Belanja sambil chat, bisa tanya-tanya langsung."
+            },
+            "benefit3": {
+                "title": "Trust meningkat",
+                "description": "Interaksi personal membuat pelanggan lebih percaya."
+            },
+            "benefit4": {
+                "title": "Repeat order lebih mudah",
+                "description": "Pelanggan tinggal chat \"pesan lagi\" tanpa ribet."
+            }
+        },
+        "cta": {
+            "title": "Siap Meluncurkan Toko Online Anda?",
+            "subtitle": "Bergabunglah dengan ribuan bisnis yang menggunakan CHARM Store untuk meningkatkan penjualan mereka.",
+            "startFree": "Mulai Gratis Sekarang",
+            "contactSales": "Hubungi Sales"
         }
     },
     "pricing": {

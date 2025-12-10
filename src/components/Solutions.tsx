@@ -1,4 +1,4 @@
-import { Store, Building2, Briefcase, GraduationCap, Home, Users } from 'lucide-react';
+import { Store, Building2, Briefcase, Home, Users } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { useState } from 'react';
 
@@ -6,13 +6,10 @@ const industries = [
     { key: 'ecommerce', icon: Store },
     { key: 'fnb', icon: Briefcase },
     { key: 'retail', icon: Building2 },
-    { key: 'insurance', icon: Shield },
-    { key: 'construction', icon: Home },
-    { key: 'education', icon: GraduationCap },
     { key: 'property', icon: Home }
 ];
 
-import { Check, Shield } from 'lucide-react';
+import { Check } from 'lucide-react';
 
 export default function Solutions() {
     const { t } = useTranslation();
@@ -40,8 +37,8 @@ export default function Solutions() {
                                     key={industry.key}
                                     onClick={() => setActiveIndustry(industry.key)}
                                     className={`flex items-center space-x-2 px-6 py-3 rounded-lg font-medium transition-all whitespace-nowrap ${activeIndustry === industry.key
-                                            ? 'bg-emerald-600 text-white shadow-lg shadow-emerald-600/30'
-                                            : 'text-gray-700 hover:bg-white'
+                                        ? 'bg-emerald-600 text-white shadow-lg shadow-emerald-600/30'
+                                        : 'text-gray-700 hover:bg-white'
                                         }`}
                                 >
                                     <Icon className="w-4 h-4" />

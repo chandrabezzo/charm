@@ -1,16 +1,17 @@
 import { MessageCircle, ArrowRight, Play } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
 import LanguageSwitcher from './LanguageSwitcher';
 
 export default function Hero() {
   const { t } = useTranslation();
 
   const menuItems = [
-    { key: 'home', href: '#' },
-    { key: 'aiChat', href: '#ai-chat' },
-    { key: 'store', href: '#store' },
-    { key: 'broadcast', href: '#broadcast' },
-    { key: 'flow', href: '#flow' },
+    { key: 'home', href: '/' },
+    { key: 'aiChat', href: '/ai-chat' },
+    { key: 'store', href: '/store' },
+    { key: 'broadcast', href: '/broadcast' },
+    { key: 'flow', href: '/flow' },
     { key: 'features', href: '#features' },
     { key: 'solutions', href: '#solutions' },
     { key: 'pricing', href: '#pricing' },
@@ -24,20 +25,30 @@ export default function Hero() {
 
       <nav className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 border-b border-white/10">
         <div className="flex items-center justify-between">
-          <div className="flex items-center space-x-2">
+          <Link to="/" className="flex items-center space-x-2">
             <MessageCircle className="w-8 h-8 text-emerald-500" />
             <span className="text-2xl font-bold text-white">CHARM</span>
-          </div>
+          </Link>
 
           <div className="hidden lg:flex items-center space-x-8">
             {menuItems.map((item) => (
-              <a
-                key={item.key}
-                href={item.href}
-                className="text-gray-300 hover:text-emerald-400 transition-colors text-sm font-medium"
-              >
-                {t(`nav.${item.key}`)}
-              </a>
+              item.href.startsWith('/') ? (
+                <Link
+                  key={item.key}
+                  to={item.href}
+                  className="text-gray-300 hover:text-emerald-400 transition-colors text-sm font-medium"
+                >
+                  {t(`nav.${item.key}`)}
+                </Link>
+              ) : (
+                <a
+                  key={item.key}
+                  href={item.href}
+                  className="text-gray-300 hover:text-emerald-400 transition-colors text-sm font-medium"
+                >
+                  {t(`nav.${item.key}`)}
+                </a>
+              )
             ))}
           </div>
 
