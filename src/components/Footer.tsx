@@ -1,19 +1,34 @@
 import { MessageCircle, Mail, MapPin, Phone } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
 
 export default function Footer() {
   const { t } = useTranslation();
   const currentYear = new Date().getFullYear();
+
+  const productLinks = [
+    { labelKey: 'footer.product.features', href: '/features' },
+    { labelKey: 'footer.product.aiChat', href: '/ai-chat' },
+    { labelKey: 'footer.product.store', href: '/store' },
+    { labelKey: 'footer.product.broadcast', href: '/broadcast' },
+    { labelKey: 'footer.product.pricing', href: '/pricing' }
+  ];
+
+  const companyLinks = [
+    { labelKey: 'footer.company.about', href: '/about' },
+    { labelKey: 'footer.company.solutions', href: '/solutions' },
+    { labelKey: 'footer.company.contact', href: '/contact' }
+  ];
 
   return (
     <footer className="bg-gray-900 text-gray-300">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           <div>
-            <div className="flex items-center space-x-2 mb-6">
+            <Link to="/" className="flex items-center space-x-2 mb-6">
               <MessageCircle className="w-8 h-8 text-emerald-500" />
               <span className="text-2xl font-bold text-white">CHARM</span>
-            </div>
+            </Link>
             <p className="text-gray-400 leading-relaxed mb-6">
               {t('footer.description')}
             </p>
@@ -47,18 +62,11 @@ export default function Footer() {
           <div>
             <h3 className="text-white font-semibold text-lg mb-6">{t('footer.product.title')}</h3>
             <ul className="space-y-3">
-              {[
-                { key: 'footer.product.features' },
-                { key: 'footer.product.pricing' },
-                { key: 'footer.product.integrations' },
-                { key: 'footer.product.api' },
-                { key: 'footer.product.documentation' },
-                { key: 'footer.product.changelog' }
-              ].map((item, index) => (
+              {productLinks.map((item, index) => (
                 <li key={index}>
-                  <a href="#" className="hover:text-emerald-400 transition-colors">
-                    {t(item.key)}
-                  </a>
+                  <Link to={item.href} className="hover:text-emerald-400 transition-colors">
+                    {t(item.labelKey)}
+                  </Link>
                 </li>
               ))}
             </ul>
@@ -67,18 +75,11 @@ export default function Footer() {
           <div>
             <h3 className="text-white font-semibold text-lg mb-6">{t('footer.company.title')}</h3>
             <ul className="space-y-3">
-              {[
-                { key: 'footer.company.about' },
-                { key: 'footer.company.careers' },
-                { key: 'footer.company.blog' },
-                { key: 'footer.company.pressKit' },
-                { key: 'footer.company.partners' },
-                { key: 'footer.company.contact' }
-              ].map((item, index) => (
+              {companyLinks.map((item, index) => (
                 <li key={index}>
-                  <a href="#" className="hover:text-emerald-400 transition-colors">
-                    {t(item.key)}
-                  </a>
+                  <Link to={item.href} className="hover:text-emerald-400 transition-colors">
+                    {t(item.labelKey)}
+                  </Link>
                 </li>
               ))}
             </ul>
@@ -89,11 +90,11 @@ export default function Footer() {
             <ul className="space-y-4">
               <li className="flex items-start space-x-3">
                 <Mail className="w-5 h-5 text-emerald-500 mt-0.5 flex-shrink-0" />
-                <span>hello@charm.com</span>
+                <a href="mailto:hello@charm.com" className="hover:text-emerald-400">hello@charm.com</a>
               </li>
               <li className="flex items-start space-x-3">
                 <Phone className="w-5 h-5 text-emerald-500 mt-0.5 flex-shrink-0" />
-                <span>+1 (555) 123-4567</span>
+                <a href="tel:+15551234567" className="hover:text-emerald-400">+1 (555) 123-4567</a>
               </li>
               <li className="flex items-start space-x-3">
                 <MapPin className="w-5 h-5 text-emerald-500 mt-0.5 flex-shrink-0" />

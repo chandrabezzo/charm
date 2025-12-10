@@ -160,19 +160,15 @@
         "product": {
             "title": "Produk",
             "features": "Fitur",
-            "pricing": "Harga",
-            "integrations": "Integrasi",
-            "api": "API",
-            "documentation": "Dokumentasi",
-            "changelog": "Changelog"
+            "aiChat": "AI Chat",
+            "store": "Toko Online",
+            "broadcast": "Broadcast",
+            "pricing": "Harga"
         },
         "company": {
             "title": "Perusahaan",
             "about": "Tentang Kami",
-            "careers": "Karir",
-            "blog": "Blog",
-            "pressKit": "Press Kit",
-            "partners": "Partner",
+            "solutions": "Solusi",
             "contact": "Kontak"
         },
         "contact": {

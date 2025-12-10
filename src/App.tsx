@@ -8,6 +8,7 @@ import SolutionsPage from './pages/SolutionsPage';
 import PricingPage from './pages/PricingPage';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
+import BroadcastPage from './pages/BroadcastPage';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/ai-chat" element={<AIChatPage />} />
         <Route path="/store" element={<StorePage />} />
+        <Route path="/broadcast" element={<BroadcastPage />} />
         <Route path="/flow" element={<FlowPage />} />
         <Route path="/features" element={<FeaturesPage />} />
         <Route path="/solutions" element={<SolutionsPage />} />

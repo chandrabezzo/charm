@@ -160,19 +160,15 @@
         "product": {
             "title": "Product",
             "features": "Features",
-            "pricing": "Pricing",
-            "integrations": "Integrations",
-            "api": "API",
-            "documentation": "Documentation",
-            "changelog": "Changelog"
+            "aiChat": "AI Chat",
+            "store": "Online Store",
+            "broadcast": "Broadcast",
+            "pricing": "Pricing"
         },
         "company": {
             "title": "Company",
             "about": "About Us",
-            "careers": "Careers",
-            "blog": "Blog",
-            "pressKit": "Press Kit",
-            "partners": "Partners",
+            "solutions": "Solutions",
             "contact": "Contact"
         },
         "contact": {
