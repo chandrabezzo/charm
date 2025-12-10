@@ -145,12 +145,12 @@ export default function StorePage() {
                                 </div>
 
                                 {/* Booking System Card Overlay */}
-                                <div className="absolute -right-8 top-20 bg-blue-500 rounded-2xl p-4 shadow-xl max-w-[200px] hidden lg:block">
+                                {/* <div className="absolute -right-8 top-20 bg-blue-500 rounded-2xl p-4 shadow-xl max-w-[200px] hidden lg:block">
                                     <div className="text-white">
                                         <p className="text-sm font-semibold mb-2">{t('store.mockup.bookingTitle')}</p>
                                         <p className="text-xs opacity-90">{t('store.mockup.bookingAvailable')}</p>
                                     </div>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>
