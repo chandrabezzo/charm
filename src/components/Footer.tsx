@@ -114,7 +114,7 @@ export default function Footer() {
               </li>
               <li className="flex items-start space-x-3">
                 <Phone className="w-5 h-5 text-emerald-500 mt-0.5 flex-shrink-0" />
-                <a href="tel:(022) 3000-3593" className="hover:text-emerald-400">+1 (555) 123-4567</a>
+                <a href="tel:(022) 3000-3593" className="hover:text-emerald-400">(022) 3000-3593</a>
               </li>
               <li className="flex items-start space-x-3">
                 <MapPin className="w-5 h-5 text-emerald-500 mt-0.5 flex-shrink-0" />
