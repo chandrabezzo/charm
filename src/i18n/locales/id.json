@@ -1,0 +1,182 @@
+{
+    "nav": {
+        "getStarted": "Mulai Sekarang"
+    },
+    "hero": {
+        "badge": "Tingkatkan WhatsApp Commerce Anda",
+        "title": "Transformasikan Bisnis Anda dengan",
+        "titleHighlight": "WhatsApp Commerce",
+        "description": "Platform manajemen WhatsApp Business lengkap dengan integrasi Meta Ads. Kelola katalog, terima pembayaran, dan kembangkan bisnis Anda—semua dari satu dashboard yang powerful.",
+        "startTrial": "Mulai Uji Coba Gratis",
+        "watchDemo": "Tonton Demo",
+        "stats": {
+            "activeBusinesses": "Bisnis Aktif",
+            "dailyTransactions": "Transaksi Harian",
+            "satisfactionRate": "Tingkat Kepuasan"
+        },
+        "dashboard": {
+            "whatsappConnected": "WhatsApp Terhubung",
+            "businessProfileActive": "Profil Bisnis Aktif",
+            "todayRevenue": "Pendapatan Hari Ini",
+            "activeOrders": "Pesanan Aktif",
+            "conversionRate": "Tingkat Konversi",
+            "products": "Produk",
+            "customers": "Pelanggan",
+            "support": "Dukungan"
+        }
+    },
+    "features": {
+        "title": "Semua yang Anda Butuhkan untuk Sukses",
+        "subtitle": "Fitur-fitur powerful yang dirancang untuk menyederhanakan operasi WhatsApp commerce Anda dan mempercepat pertumbuhan.",
+        "items": {
+            "whatsappManager": {
+                "title": "Manajer WhatsApp Business",
+                "description": "Kontrol penuh atas profil WhatsApp Business Anda, respons otomatis, dan alat engagement pelanggan."
+            },
+            "catalogManagement": {
+                "title": "Manajemen Katalog Produk",
+                "description": "Tambahkan, edit, dan atur katalog produk Anda dengan mudah dengan dukungan media kaya dan sinkronisasi instan."
+            },
+            "workingHours": {
+                "title": "Jam Kerja Pintar",
+                "description": "Atur jam bisnis, respons otomatis, dan kelola ketersediaan di berbagai zona waktu dengan mudah."
+            },
+            "paymentGateway": {
+                "title": "Integrasi Payment Gateway",
+                "description": "Terima pembayaran langsung melalui WhatsApp dengan berbagai metode pembayaran dan transaksi yang aman."
+            },
+            "deliveryManagement": {
+                "title": "Manajemen Pengiriman",
+                "description": "Integrasikan layanan pengiriman dengan WhatsApp Flow untuk pemenuhan pesanan dan pelacakan yang mulus."
+            },
+            "metaAds": {
+                "title": "Integrasi Meta Ads",
+                "description": "Buat dan kelola kampanye iklan Meta langsung dari dashboard Anda untuk meningkatkan penjualan."
+            },
+            "commerceDashboard": {
+                "title": "Dashboard Commerce",
+                "description": "Analitik dan insight yang powerful untuk melacak penjualan, perilaku pelanggan, dan performa bisnis."
+            },
+            "oneClickConnection": {
+                "title": "Koneksi Satu Klik",
+                "description": "Integrasi WhatsApp Business API yang sederhana dengan autentikasi aman dan pengaturan instan."
+            }
+        }
+    },
+    "howItWorks": {
+        "title": "Mulai dalam Hitungan Menit",
+        "subtitle": "Proses setup yang sederhana dan langsung untuk meluncurkan bisnis WhatsApp commerce Anda.",
+        "steps": {
+            "connect": {
+                "title": "Hubungkan WhatsApp Business",
+                "description": "Hubungkan akun WhatsApp Business Anda dengan CHARM menggunakan integrasi satu klik yang aman. Berikan izin dan Anda siap untuk memulai."
+            },
+            "configure": {
+                "title": "Konfigurasi Dashboard Anda",
+                "description": "Atur profil bisnis, jam kerja, katalog produk, payment gateway, dan preferensi pengiriman dari dashboard intuitif kami."
+            },
+            "launch": {
+                "title": "Luncurkan & Berkembang",
+                "description": "Mulai berjualan melalui WhatsApp dan buat kampanye Meta Ads untuk menjangkau lebih banyak pelanggan. Lacak semuanya secara real-time."
+            },
+            "scale": {
+                "title": "Tingkatkan Skala Bisnis Anda",
+                "description": "Gunakan insight dan analitik untuk mengoptimalkan operasi Anda, otomatisasi alur kerja, dan maksimalkan potensi pendapatan Anda."
+            }
+        }
+    },
+    "benefits": {
+        "title": "Mengapa Memilih CHARM?",
+        "subtitle": "Bergabunglah dengan ribuan bisnis yang sudah mengembangkan penjualan mereka dengan platform kami.",
+        "items": {
+            "increaseRevenue": {
+                "title": "Tingkatkan Pendapatan",
+                "description": "Rata-rata peningkatan penjualan 3x lipat"
+            },
+            "growCustomerBase": {
+                "title": "Kembangkan Basis Pelanggan",
+                "description": "Jangkau jutaan orang di WhatsApp"
+            },
+            "saveTime": {
+                "title": "Hemat Waktu",
+                "description": "Otomatisasi tugas-tugas yang berulang"
+            },
+            "secureReliable": {
+                "title": "Aman & Handal",
+                "description": "Keamanan tingkat enterprise"
+            }
+        },
+        "trust": {
+            "title": "Dipercaya oleh Bisnis Terkemuka",
+            "description": "Dari startup hingga enterprise, bisnis di seluruh dunia mempercayai CHARM untuk menggerakkan operasi WhatsApp commerce mereka dan mendorong pertumbuhan.",
+            "stats": {
+                "countries": "Negara",
+                "processed": "Diproses",
+                "rating": "Rating"
+            },
+            "features": {
+                "support": "Dukungan Tersedia",
+                "setupTime": "Waktu Setup",
+                "api": "Integrasi Siap",
+                "certified": "Bersertifikat"
+            }
+        }
+    },
+    "cta": {
+        "title": "Siap Mentransformasi Bisnis Anda?",
+        "subtitle": "Bergabunglah dengan ribuan bisnis yang menggunakan CHARM untuk meningkatkan skala operasi WhatsApp commerce mereka.",
+        "benefits": {
+            "noCredit": "Tidak perlu kartu kredit",
+            "freeTrial": "Uji coba gratis 14 hari",
+            "cancelAnytime": "Batal kapan saja",
+            "fullAccess": "Akses fitur lengkap"
+        },
+        "button": "Mulai Uji Coba Gratis Anda",
+        "note": "Mulai dalam waktu kurang dari 5 menit",
+        "stats": {
+            "activeBusinesses": "Bisnis aktif di seluruh dunia",
+            "monthlyTransactions": "Transaksi bulanan diproses",
+            "avgRating": "Rating pelanggan rata-rata"
+        },
+        "testimonial": {
+            "text": "CHARM telah sepenuhnya mentransformasi cara kami mengelola bisnis WhatsApp kami. Penjualan meningkat 250% hanya dalam 3 bulan!",
+            "author": "Sarah Johnson",
+            "position": "CEO, Fashion Boutique"
+        }
+    },
+    "footer": {
+        "description": "Memberdayakan bisnis dengan solusi WhatsApp commerce lengkap dan integrasi Meta Ads.",
+        "product": {
+            "title": "Produk",
+            "features": "Fitur",
+            "pricing": "Harga",
+            "integrations": "Integrasi",
+            "api": "API",
+            "documentation": "Dokumentasi",
+            "changelog": "Changelog"
+        },
+        "company": {
+            "title": "Perusahaan",
+            "about": "Tentang Kami",
+            "careers": "Karir",
+            "blog": "Blog",
+            "pressKit": "Press Kit",
+            "partners": "Partner",
+            "contact": "Kontak"
+        },
+        "contact": {
+            "title": "Kontak"
+        },
+        "legal": {
+            "rights": "CHARM. Semua hak dilindungi.",
+            "privacy": "Kebijakan Privasi",
+            "terms": "Ketentuan Layanan",
+            "cookies": "Kebijakan Cookie"
+        }
+    },
+    "currency": {
+        "todayRevenue": "Rp 198.500.000",
+        "monthlyProcessed": "Rp 800M+",
+        "totalProcessed": "Rp 800M+"
+    }
+}

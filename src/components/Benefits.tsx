@@ -1,46 +1,49 @@
 import { TrendingUp, Users, Clock, Shield } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 const benefits = [
   {
     icon: TrendingUp,
-    title: 'Increase Revenue',
-    description: 'Average 3x increase in sales',
     stats: '+300%',
-    color: 'emerald'
+    color: 'emerald',
+    titleKey: 'benefits.items.increaseRevenue.title',
+    descKey: 'benefits.items.increaseRevenue.description'
   },
   {
     icon: Users,
-    title: 'Grow Customer Base',
-    description: 'Reach millions on WhatsApp',
     stats: '2B+',
-    color: 'blue'
+    color: 'blue',
+    titleKey: 'benefits.items.growCustomerBase.title',
+    descKey: 'benefits.items.growCustomerBase.description'
   },
   {
     icon: Clock,
-    title: 'Save Time',
-    description: 'Automate repetitive tasks',
     stats: '80%',
-    color: 'orange'
+    color: 'orange',
+    titleKey: 'benefits.items.saveTime.title',
+    descKey: 'benefits.items.saveTime.description'
   },
   {
     icon: Shield,
-    title: 'Secure & Reliable',
-    description: 'Enterprise-grade security',
     stats: '99.9%',
-    color: 'green'
+    color: 'green',
+    titleKey: 'benefits.items.secureReliable.title',
+    descKey: 'benefits.items.secureReliable.description'
   }
 ];
 
 export default function Benefits() {
+  const { t } = useTranslation();
+
   return (
     <section className="py-24 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
-            Why Choose CHARM?
+            {t('benefits.title')}
           </h2>
           <p className="text-xl text-gray-600">
-            Join thousands of businesses already growing their sales with our platform.
+            {t('benefits.subtitle')}
           </p>
         </div>
 
@@ -68,10 +71,10 @@ export default function Benefits() {
                     {benefit.stats}
                   </div>
                   <h3 className="text-xl font-bold text-gray-900 mb-2">
-                    {benefit.title}
+                    {t(benefit.titleKey)}
                   </h3>
                   <p className="text-gray-600">
-                    {benefit.description}
+                    {t(benefit.descKey)}
                   </p>
                 </div>
               </div>
@@ -83,42 +86,42 @@ export default function Benefits() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <h3 className="text-3xl lg:text-4xl font-bold mb-6">
-                Trusted by Leading Businesses
+                {t('benefits.trust.title')}
               </h3>
               <p className="text-emerald-50 text-lg leading-relaxed mb-8">
-                From startups to enterprises, businesses worldwide trust CHARM to power their WhatsApp commerce operations and drive growth.
+                {t('benefits.trust.description')}
               </p>
               <div className="flex items-center space-x-8">
                 <div>
                   <div className="text-3xl font-bold">150+</div>
-                  <div className="text-emerald-100">Countries</div>
+                  <div className="text-emerald-100">{t('benefits.trust.stats.countries')}</div>
                 </div>
                 <div>
-                  <div className="text-3xl font-bold">$50M+</div>
-                  <div className="text-emerald-100">Processed</div>
+                  <div className="text-3xl font-bold">{t('currency.totalProcessed')}</div>
+                  <div className="text-emerald-100">{t('benefits.trust.stats.processed')}</div>
                 </div>
                 <div>
                   <div className="text-3xl font-bold">4.9/5</div>
-                  <div className="text-emerald-100">Rating</div>
+                  <div className="text-emerald-100">{t('benefits.trust.stats.rating')}</div>
                 </div>
               </div>
             </div>
             <div className="grid grid-cols-2 gap-4">
               <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20">
                 <div className="text-2xl font-bold mb-2">24/7</div>
-                <div className="text-emerald-50 text-sm">Support Available</div>
+                <div className="text-emerald-50 text-sm">{t('benefits.trust.features.support')}</div>
               </div>
               <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20">
                 <div className="text-2xl font-bold mb-2">5 min</div>
-                <div className="text-emerald-50 text-sm">Setup Time</div>
+                <div className="text-emerald-50 text-sm">{t('benefits.trust.features.setupTime')}</div>
               </div>
               <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20">
                 <div className="text-2xl font-bold mb-2">API</div>
-                <div className="text-emerald-50 text-sm">Integration Ready</div>
+                <div className="text-emerald-50 text-sm">{t('benefits.trust.features.api')}</div>
               </div>
               <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20">
                 <div className="text-2xl font-bold mb-2">SOC 2</div>
-                <div className="text-emerald-50 text-sm">Certified</div>
+                <div className="text-emerald-50 text-sm">{t('benefits.trust.features.certified')}</div>
               </div>
             </div>
           </div>

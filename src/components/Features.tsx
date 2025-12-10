@@ -8,54 +8,55 @@ import {
   Clock,
   Package
 } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 const features = [
   {
     icon: Smartphone,
-    title: 'WhatsApp Business Manager',
-    description: 'Complete control over your WhatsApp Business profile, automated responses, and customer engagement tools.',
+    titleKey: 'features.items.whatsappManager.title',
+    descKey: 'features.items.whatsappManager.description',
     color: 'emerald'
   },
   {
     icon: Package,
-    title: 'Product Catalog Management',
-    description: 'Easily add, edit, and organize your product catalogs with rich media support and instant sync.',
+    titleKey: 'features.items.catalogManagement.title',
+    descKey: 'features.items.catalogManagement.description',
     color: 'blue'
   },
   {
     icon: Clock,
-    title: 'Smart Working Hours',
-    description: 'Set business hours, auto-responses, and manage availability across different time zones effortlessly.',
+    titleKey: 'features.items.workingHours.title',
+    descKey: 'features.items.workingHours.description',
     color: 'orange'
   },
   {
     icon: CreditCard,
-    title: 'Payment Gateway Integration',
-    description: 'Accept payments directly through WhatsApp with multiple payment methods and secure transactions.',
+    titleKey: 'features.items.paymentGateway.title',
+    descKey: 'features.items.paymentGateway.description',
     color: 'green'
   },
   {
     icon: Truck,
-    title: 'Delivery Management',
-    description: 'Integrate delivery services with WhatsApp Flow for seamless order fulfillment and tracking.',
+    titleKey: 'features.items.deliveryManagement.title',
+    descKey: 'features.items.deliveryManagement.description',
     color: 'cyan'
   },
   {
     icon: BarChart3,
-    title: 'Meta Ads Integration',
-    description: 'Create and manage Meta advertising campaigns directly from your dashboard to boost sales.',
+    titleKey: 'features.items.metaAds.title',
+    descKey: 'features.items.metaAds.description',
     color: 'red'
   },
   {
     icon: ShoppingCart,
-    title: 'Commerce Dashboard',
-    description: 'Powerful analytics and insights to track sales, customer behavior, and business performance.',
+    titleKey: 'features.items.commerceDashboard.title',
+    descKey: 'features.items.commerceDashboard.description',
     color: 'violet'
   },
   {
     icon: Zap,
-    title: 'One-Click Connection',
-    description: 'Simple WhatsApp Business API integration with secure authentication and instant setup.',
+    titleKey: 'features.items.oneClickConnection.title',
+    descKey: 'features.items.oneClickConnection.description',
     color: 'yellow'
   }
 ];
@@ -72,15 +73,17 @@ const colorClasses = {
 };
 
 export default function Features() {
+  const { t } = useTranslation();
+
   return (
     <section className="py-24 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
-            Everything You Need to Succeed
+            {t('features.title')}
           </h2>
           <p className="text-xl text-gray-600">
-            Powerful features designed to streamline your WhatsApp commerce operations and accelerate growth.
+            {t('features.subtitle')}
           </p>
         </div>
 
@@ -96,10 +99,10 @@ export default function Features() {
                   <Icon className="w-7 h-7" />
                 </div>
                 <h3 className="text-lg font-bold text-gray-900 mb-3">
-                  {feature.title}
+                  {t(feature.titleKey)}
                 </h3>
                 <p className="text-gray-600 leading-relaxed">
-                  {feature.description}
+                  {t(feature.descKey)}
                 </p>
               </div>
             );

@@ -1,42 +1,45 @@
 import { Link2, Settings, Rocket, CheckCircle2 } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 const steps = [
   {
     icon: Link2,
     number: '01',
-    title: 'Connect WhatsApp Business',
-    description: 'Link your WhatsApp Business account with CHARM using our secure one-click integration. Grant permissions and you\'re ready to go.'
+    titleKey: 'howItWorks.steps.connect.title',
+    descKey: 'howItWorks.steps.connect.description'
   },
   {
     icon: Settings,
     number: '02',
-    title: 'Configure Your Dashboard',
-    description: 'Set up your business profile, working hours, product catalog, payment gateway, and delivery preferences from our intuitive dashboard.'
+    titleKey: 'howItWorks.steps.configure.title',
+    descKey: 'howItWorks.steps.configure.description'
   },
   {
     icon: Rocket,
     number: '03',
-    title: 'Launch & Grow',
-    description: 'Start selling through WhatsApp and create Meta Ads campaigns to reach more customers. Track everything in real-time.'
+    titleKey: 'howItWorks.steps.launch.title',
+    descKey: 'howItWorks.steps.launch.description'
   },
   {
     icon: CheckCircle2,
     number: '04',
-    title: 'Scale Your Business',
-    description: 'Use insights and analytics to optimize your operations, automate workflows, and maximize your revenue potential.'
+    titleKey: 'howItWorks.steps.scale.title',
+    descKey: 'howItWorks.steps.scale.description'
   }
 ];
 
 export default function HowItWorks() {
+  const { t } = useTranslation();
+
   return (
     <section className="py-24 bg-gradient-to-br from-gray-50 to-emerald-50/30">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto mb-20">
           <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
-            Get Started in Minutes
+            {t('howItWorks.title')}
           </h2>
           <p className="text-xl text-gray-600">
-            Simple, straightforward setup process to launch your WhatsApp commerce business.
+            {t('howItWorks.subtitle')}
           </p>
         </div>
 
@@ -57,10 +60,10 @@ export default function HowItWorks() {
                     </span>
                   </div>
                   <h3 className="text-xl font-bold text-gray-900 mb-3">
-                    {step.title}
+                    {t(step.titleKey)}
                   </h3>
                   <p className="text-gray-600 leading-relaxed">
-                    {step.description}
+                    {t(step.descKey)}
                   </p>
                 </div>
               </div>

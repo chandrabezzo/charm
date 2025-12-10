@@ -1,0 +1,182 @@
+{
+    "nav": {
+        "getStarted": "Get Started"
+    },
+    "hero": {
+        "badge": "Elevate Your WhatsApp Commerce",
+        "title": "Transform Your Business with",
+        "titleHighlight": "WhatsApp Commerce",
+        "description": "Complete WhatsApp Business management platform with Meta Ads integration. Manage catalogs, accept payments, and grow your business—all from one powerful dashboard.",
+        "startTrial": "Start Free Trial",
+        "watchDemo": "Watch Demo",
+        "stats": {
+            "activeBusinesses": "Active Businesses",
+            "dailyTransactions": "Daily Transactions",
+            "satisfactionRate": "Satisfaction Rate"
+        },
+        "dashboard": {
+            "whatsappConnected": "WhatsApp Connected",
+            "businessProfileActive": "Business Profile Active",
+            "todayRevenue": "Today's Revenue",
+            "activeOrders": "Active Orders",
+            "conversionRate": "Conversion Rate",
+            "products": "Products",
+            "customers": "Customers",
+            "support": "Support"
+        }
+    },
+    "features": {
+        "title": "Everything You Need to Succeed",
+        "subtitle": "Powerful features designed to streamline your WhatsApp commerce operations and accelerate growth.",
+        "items": {
+            "whatsappManager": {
+                "title": "WhatsApp Business Manager",
+                "description": "Complete control over your WhatsApp Business profile, automated responses, and customer engagement tools."
+            },
+            "catalogManagement": {
+                "title": "Product Catalog Management",
+                "description": "Easily add, edit, and organize your product catalogs with rich media support and instant sync."
+            },
+            "workingHours": {
+                "title": "Smart Working Hours",
+                "description": "Set business hours, auto-responses, and manage availability across different time zones effortlessly."
+            },
+            "paymentGateway": {
+                "title": "Payment Gateway Integration",
+                "description": "Accept payments directly through WhatsApp with multiple payment methods and secure transactions."
+            },
+            "deliveryManagement": {
+                "title": "Delivery Management",
+                "description": "Integrate delivery services with WhatsApp Flow for seamless order fulfillment and tracking."
+            },
+            "metaAds": {
+                "title": "Meta Ads Integration",
+                "description": "Create and manage Meta advertising campaigns directly from your dashboard to boost sales."
+            },
+            "commerceDashboard": {
+                "title": "Commerce Dashboard",
+                "description": "Powerful analytics and insights to track sales, customer behavior, and business performance."
+            },
+            "oneClickConnection": {
+                "title": "One-Click Connection",
+                "description": "Simple WhatsApp Business API integration with secure authentication and instant setup."
+            }
+        }
+    },
+    "howItWorks": {
+        "title": "Get Started in Minutes",
+        "subtitle": "Simple, straightforward setup process to launch your WhatsApp commerce business.",
+        "steps": {
+            "connect": {
+                "title": "Connect WhatsApp Business",
+                "description": "Link your WhatsApp Business account with CHARM using our secure one-click integration. Grant permissions and you're ready to go."
+            },
+            "configure": {
+                "title": "Configure Your Dashboard",
+                "description": "Set up your business profile, working hours, product catalog, payment gateway, and delivery preferences from our intuitive dashboard."
+            },
+            "launch": {
+                "title": "Launch & Grow",
+                "description": "Start selling through WhatsApp and create Meta Ads campaigns to reach more customers. Track everything in real-time."
+            },
+            "scale": {
+                "title": "Scale Your Business",
+                "description": "Use insights and analytics to optimize your operations, automate workflows, and maximize your revenue potential."
+            }
+        }
+    },
+    "benefits": {
+        "title": "Why Choose CHARM?",
+        "subtitle": "Join thousands of businesses already growing their sales with our platform.",
+        "items": {
+            "increaseRevenue": {
+                "title": "Increase Revenue",
+                "description": "Average 3x increase in sales"
+            },
+            "growCustomerBase": {
+                "title": "Grow Customer Base",
+                "description": "Reach millions on WhatsApp"
+            },
+            "saveTime": {
+                "title": "Save Time",
+                "description": "Automate repetitive tasks"
+            },
+            "secureReliable": {
+                "title": "Secure & Reliable",
+                "description": "Enterprise-grade security"
+            }
+        },
+        "trust": {
+            "title": "Trusted by Leading Businesses",
+            "description": "From startups to enterprises, businesses worldwide trust CHARM to power their WhatsApp commerce operations and drive growth.",
+            "stats": {
+                "countries": "Countries",
+                "processed": "Processed",
+                "rating": "Rating"
+            },
+            "features": {
+                "support": "Support Available",
+                "setupTime": "Setup Time",
+                "api": "Integration Ready",
+                "certified": "Certified"
+            }
+        }
+    },
+    "cta": {
+        "title": "Ready to Transform Your Business?",
+        "subtitle": "Join thousands of businesses using CHARM to scale their WhatsApp commerce operations.",
+        "benefits": {
+            "noCredit": "No credit card required",
+            "freeTrial": "14-day free trial",
+            "cancelAnytime": "Cancel anytime",
+            "fullAccess": "Full feature access"
+        },
+        "button": "Start Your Free Trial",
+        "note": "Get started in less than 5 minutes",
+        "stats": {
+            "activeBusinesses": "Active businesses worldwide",
+            "monthlyTransactions": "Monthly transactions processed",
+            "avgRating": "Average customer rating"
+        },
+        "testimonial": {
+            "text": "CHARM has completely transformed how we manage our WhatsApp business. Sales increased by 250% in just 3 months!",
+            "author": "Sarah Johnson",
+            "position": "CEO, Fashion Boutique"
+        }
+    },
+    "footer": {
+        "description": "Empowering businesses with complete WhatsApp commerce solutions and Meta Ads integration.",
+        "product": {
+            "title": "Product",
+            "features": "Features",
+            "pricing": "Pricing",
+            "integrations": "Integrations",
+            "api": "API",
+            "documentation": "Documentation",
+            "changelog": "Changelog"
+        },
+        "company": {
+            "title": "Company",
+            "about": "About Us",
+            "careers": "Careers",
+            "blog": "Blog",
+            "pressKit": "Press Kit",
+            "partners": "Partners",
+            "contact": "Contact"
+        },
+        "contact": {
+            "title": "Contact"
+        },
+        "legal": {
+            "rights": "CHARM. All rights reserved.",
+            "privacy": "Privacy Policy",
+            "terms": "Terms of Service",
+            "cookies": "Cookie Policy"
+        }
+    },
+    "currency": {
+        "todayRevenue": "Rp 198,500,000",
+        "monthlyProcessed": "Rp 800M+",
+        "totalProcessed": "Rp 800M+"
+    }
+}

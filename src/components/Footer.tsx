@@ -1,6 +1,8 @@
 import { MessageCircle, Mail, MapPin, Phone } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 export default function Footer() {
+  const { t } = useTranslation();
   const currentYear = new Date().getFullYear();
 
   return (
@@ -13,7 +15,7 @@ export default function Footer() {
               <span className="text-2xl font-bold text-white">CHARM</span>
             </div>
             <p className="text-gray-400 leading-relaxed mb-6">
-              Empowering businesses with complete WhatsApp commerce solutions and Meta Ads integration.
+              {t('footer.description')}
             </p>
             <div className="flex space-x-4">
               {['twitter', 'facebook', 'linkedin', 'instagram'].map((social) => (
@@ -30,12 +32,19 @@ export default function Footer() {
           </div>
 
           <div>
-            <h3 className="text-white font-semibold text-lg mb-6">Product</h3>
+            <h3 className="text-white font-semibold text-lg mb-6">{t('footer.product.title')}</h3>
             <ul className="space-y-3">
-              {['Features', 'Pricing', 'Integrations', 'API', 'Documentation', 'Changelog'].map((item) => (
-                <li key={item}>
+              {[
+                { key: 'footer.product.features' },
+                { key: 'footer.product.pricing' },
+                { key: 'footer.product.integrations' },
+                { key: 'footer.product.api' },
+                { key: 'footer.product.documentation' },
+                { key: 'footer.product.changelog' }
+              ].map((item, index) => (
+                <li key={index}>
                   <a href="#" className="hover:text-emerald-400 transition-colors">
-                    {item}
+                    {t(item.key)}
                   </a>
                 </li>
               ))}
@@ -43,12 +52,19 @@ export default function Footer() {
           </div>
 
           <div>
-            <h3 className="text-white font-semibold text-lg mb-6">Company</h3>
+            <h3 className="text-white font-semibold text-lg mb-6">{t('footer.company.title')}</h3>
             <ul className="space-y-3">
-              {['About Us', 'Careers', 'Blog', 'Press Kit', 'Partners', 'Contact'].map((item) => (
-                <li key={item}>
+              {[
+                { key: 'footer.company.about' },
+                { key: 'footer.company.careers' },
+                { key: 'footer.company.blog' },
+                { key: 'footer.company.pressKit' },
+                { key: 'footer.company.partners' },
+                { key: 'footer.company.contact' }
+              ].map((item, index) => (
+                <li key={index}>
                   <a href="#" className="hover:text-emerald-400 transition-colors">
-                    {item}
+                    {t(item.key)}
                   </a>
                 </li>
               ))}
@@ -56,7 +72,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <h3 className="text-white font-semibold text-lg mb-6">Contact</h3>
+            <h3 className="text-white font-semibold text-lg mb-6">{t('footer.contact.title')}</h3>
             <ul className="space-y-4">
               <li className="flex items-start space-x-3">
                 <Mail className="w-5 h-5 text-emerald-500 mt-0.5 flex-shrink-0" />
@@ -77,17 +93,17 @@ export default function Footer() {
         <div className="border-t border-gray-800 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-gray-400 text-sm">
-              {currentYear} CHARM. All rights reserved.
+              {currentYear} {t('footer.legal.rights')}
             </p>
             <div className="flex space-x-6 text-sm">
               <a href="#" className="hover:text-emerald-400 transition-colors">
-                Privacy Policy
+                {t('footer.legal.privacy')}
               </a>
               <a href="#" className="hover:text-emerald-400 transition-colors">
-                Terms of Service
+                {t('footer.legal.terms')}
               </a>
               <a href="#" className="hover:text-emerald-400 transition-colors">
-                Cookie Policy
+                {t('footer.legal.cookies')}
               </a>
             </div>
           </div>
