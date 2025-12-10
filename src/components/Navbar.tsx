@@ -10,8 +10,9 @@ export default function Navbar() {
 
     const menuItems = [
         { key: 'home', href: '/' },
-        { key: 'aiChat', href: '/ai-chat' },
-        { key: 'store', href: '/store' },
+        // { key: 'home', href: '/' },
+        // { key: 'aiChat', href: '/ai-chat' },
+        // { key: 'store', href: '/store' },
         { key: 'broadcast', href: '/broadcast' },
         { key: 'flow', href: '/flow' },
         { key: 'features', href: '/features' },

@@ -1,4 +1,4 @@
-import { Bot, MessageSquare, Zap, TrendingUp, CheckCircle, XCircle, Brain, Database, FileText, Shuffle, Target, ShoppingBag, Utensils, Building2, Stethoscope, Briefcase } from 'lucide-react';
+import { MessageSquare, Zap, TrendingUp, CheckCircle, XCircle, Brain, Database, FileText, Shuffle, Target, ShoppingBag, Utensils, Building2, Stethoscope, Briefcase } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { useState } from 'react';
 import Navbar from '../components/Navbar';

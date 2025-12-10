@@ -1,4 +1,4 @@
-import { Users, Rocket, Shield, Handshake, TrendingUp, Heart, Clock, Globe, Building, Award, MessageCircle, Send, CheckCircle } from 'lucide-react';
+import { Users, Rocket, Shield, Handshake, TrendingUp, Heart, Clock, Globe, Building, Award, Send, CheckCircle } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
@@ -41,14 +41,13 @@ export default function AboutPage() {
             icon: Heart,
             titleKey: 'aboutPage.values.madeForIndonesia.title',
             descKey: 'aboutPage.values.madeForIndonesia.description',
-            color: 'bg-emerald-500',
-            highlight: true
+            color: 'bg-emerald-500'
         }
     ];
 
     const team = [
         {
-            name: 'Muhammad Ammar Fauzan',
+            name: 'M. Ammar Fauzan',
             initials: 'MAF',
             role: 'aboutPage.team.cofounderCEO',
             color: 'bg-emerald-500'
@@ -66,7 +65,7 @@ export default function AboutPage() {
             color: 'bg-emerald-500'
         },
         {
-            name: 'Muhammad Dhafin Rizqullah',
+            name: 'M. Dhafin Rizqullah',
             initials: 'MDR',
             role: 'aboutPage.team.headCustomerSuccess',
             color: 'bg-blue-500'

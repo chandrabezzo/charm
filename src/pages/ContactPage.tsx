@@ -74,13 +74,13 @@ export default function ContactPage() {
                         </a>
 
                         <a
-                            href="tel:+622112345678"
+                            href="tel:+02230003593"
                             className="flex items-center justify-center space-x-3 bg-slate-800 hover:bg-slate-700 text-white px-8 py-4 rounded-xl font-semibold border border-slate-700 transition-all"
                         >
                             <Phone className="w-5 h-5 text-emerald-400" />
                             <div className="text-left">
                                 <div className="text-sm text-gray-400">Telepon</div>
-                                <div className="font-bold">(021) 1234-5678</div>
+                                <div className="font-bold">(022) 3000-3593</div>
                             </div>
                         </a>
 
@@ -251,12 +251,12 @@ export default function ContactPage() {
                                 <div className="space-y-3">
                                     <div className="flex items-center space-x-3 text-gray-600">
                                         <Phone className="w-5 h-5 text-gray-400" />
-                                        <span>(021) 1234-5678</span>
+                                        <span>(022) 3000-3593</span>
                                     </div>
                                     <div className="flex items-center space-x-3">
                                         <MessageCircle className="w-5 h-5 text-emerald-600" />
                                         <a href="https://wa.me/6285183119529" target="_blank" rel="noopener noreferrer" className="text-emerald-600 hover:text-emerald-700 font-semibold">
-                                            +62 812-3456-7890
+                                            +62 8518-3119-529
                                         </a>
                                     </div>
                                     <div className="flex items-center space-x-3 text-gray-600">

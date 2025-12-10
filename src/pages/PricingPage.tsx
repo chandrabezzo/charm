@@ -106,8 +106,8 @@ export default function PricingPage() {
                         <button
                             onClick={() => setBillingCycle('monthly')}
                             className={`px-6 py-3 rounded-full font-semibold transition-all ${billingCycle === 'monthly'
-                                    ? 'bg-emerald-600 text-white shadow-lg'
-                                    : 'text-gray-400 hover:text-white'
+                                ? 'bg-emerald-600 text-white shadow-lg'
+                                : 'text-gray-400 hover:text-white'
                                 }`}
                         >
                             {t('pricingPage.billing.monthly')}
@@ -115,8 +115,8 @@ export default function PricingPage() {
                         <button
                             onClick={() => setBillingCycle('yearly')}
                             className={`px-6 py-3 rounded-full font-semibold transition-all flex items-center space-x-2 ${billingCycle === 'yearly'
-                                    ? 'bg-emerald-600 text-white shadow-lg'
-                                    : 'text-gray-400 hover:text-white'
+                                ? 'bg-emerald-600 text-white shadow-lg'
+                                : 'text-gray-400 hover:text-white'
                                 }`}
                         >
                             <span>{t('pricingPage.billing.yearly')}</span>
@@ -140,8 +140,8 @@ export default function PricingPage() {
                                 <div
                                     key={index}
                                     className={`bg-white rounded-2xl p-8 shadow-lg transition-all ${plan.popular
-                                            ? 'border-2 border-emerald-500 transform scale-105 relative'
-                                            : 'border border-gray-200'
+                                        ? 'border-2 border-emerald-500 transform scale-105 relative'
+                                        : 'border border-gray-200'
                                         }`}
                                 >
                                     {plan.popular && (
@@ -168,8 +168,8 @@ export default function PricingPage() {
 
                                     <button
                                         className={`w-full py-3 px-6 rounded-xl font-semibold transition-all mb-8 ${plan.popular
-                                                ? 'bg-emerald-600 hover:bg-emerald-700 text-white shadow-lg shadow-emerald-600/30'
-                                                : 'bg-gray-100 hover:bg-gray-200 text-gray-900'
+                                            ? 'bg-emerald-600 hover:bg-emerald-700 text-white shadow-lg shadow-emerald-600/30'
+                                            : 'bg-gray-100 hover:bg-gray-200 text-gray-900'
                                             }`}
                                     >
                                         {t(plan.cta)}

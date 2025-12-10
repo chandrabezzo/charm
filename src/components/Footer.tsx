@@ -1,6 +1,14 @@
 import { MessageCircle, Mail, MapPin, Phone } from 'lucide-react';
+import { FaTwitter, FaFacebook, FaLinkedin, FaInstagram } from "react-icons/fa";
 import { useTranslation } from 'react-i18next';
 import { Link, useNavigate } from 'react-router-dom';
+
+const icons = {
+  twitter: <FaTwitter className="w-5 h-5" />,
+  facebook: <FaFacebook className="w-5 h-5" />,
+  linkedin: <FaLinkedin className="w-5 h-5" />,
+  instagram: <FaInstagram className="w-5 h-5" />,
+};
 
 export default function Footer() {
   const { t } = useTranslation();
@@ -41,11 +49,8 @@ export default function Footer() {
             </p>
 
             {/* Meta Business Partner Badge */}
-            <div className="mb-6 inline-flex items-center space-x-3 bg-gradient-to-r from-blue-600 to-blue-700 px-4 py-3 rounded-lg border border-blue-500">
-              <svg className="w-6 h-6 text-white" viewBox="0 0 36 36" fill="currentColor">
-                <path d="M20.3 12.3l-3.7 3.7-3.7-3.7-1.4 1.4 3.7 3.7-3.7 3.7 1.4 1.4 3.7-3.7 3.7 3.7 1.4-1.4-3.7-3.7 3.7-3.7-1.4-1.4z" />
-                <circle cx="18" cy="18" r="16" fill="none" stroke="currentColor" strokeWidth="2" />
-              </svg>
+            <div className="mb-6 inline-flex items-center space-x-3 bg-gradient-to-r from-black-600 to-blue-700 px-4 py-3 rounded-lg border border-blue-500">
+              <img src="https://cdn-icons-png.flaticon.com/512/6033/6033716.png" className="w-6 h-6 text-white" />
               <div>
                 <div className="text-xs text-blue-100 font-medium">Official Partner</div>
                 <div className="text-sm text-white font-bold">Meta Business</div>
@@ -53,14 +58,14 @@ export default function Footer() {
             </div>
 
             <div className="flex space-x-4">
-              {['twitter', 'facebook', 'linkedin', 'instagram'].map((social) => (
+              {Object.keys(icons).map((social) => (
                 <a
                   key={social}
                   href="#"
                   className="w-10 h-10 bg-gray-800 hover:bg-emerald-600 rounded-lg flex items-center justify-center transition-colors"
                 >
                   <span className="sr-only">{social}</span>
-                  <div className="w-5 h-5 bg-gray-400 rounded"></div>
+                  {icons[social as keyof typeof icons]}
                 </a>
               ))}
             </div>
@@ -109,11 +114,11 @@ export default function Footer() {
               </li>
               <li className="flex items-start space-x-3">
                 <Phone className="w-5 h-5 text-emerald-500 mt-0.5 flex-shrink-0" />
-                <a href="tel:+15551234567" className="hover:text-emerald-400">+1 (555) 123-4567</a>
+                <a href="tel:(022) 3000-3593" className="hover:text-emerald-400">+1 (555) 123-4567</a>
               </li>
               <li className="flex items-start space-x-3">
                 <MapPin className="w-5 h-5 text-emerald-500 mt-0.5 flex-shrink-0" />
-                <span>123 Business Avenue<br />San Francisco, CA 94105</span>
+                <span>Jl. Dago No.138, Lebakgede, Kecamatan Coblong, Kota Bandung, Jawa Barat 40132</span>
               </li>
             </ul>
           </div>

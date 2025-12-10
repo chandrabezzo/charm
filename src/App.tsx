@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import HomePage from './pages/HomePage';
-import AIChatPage from './pages/AIChatPage';
+// import HomePage from './pages/HomePage';
+// import AIChatPage from './pages/AIChatPage';
 import StorePage from './pages/StorePage';
 import FlowPage from './pages/FlowPage';
 import FeaturesPage from './pages/FeaturesPage';
@@ -16,9 +16,10 @@ function App() {
     <Router basename="/charm">
       <ScrollToTop />
       <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/ai-chat" element={<AIChatPage />} />
-        <Route path="/store" element={<StorePage />} />
+        {/* <Route path="/" element={<HomePage />} /> */}
+        <Route path="/" element={<StorePage />} />
+        {/* <Route path="/ai-chat" element={<AIChatPage />} /> */}
+        {/* <Route path="/store" element={<StorePage />} /> */}
         <Route path="/broadcast" element={<BroadcastPage />} />
         <Route path="/flow" element={<FlowPage />} />
         <Route path="/features" element={<FeaturesPage />} />

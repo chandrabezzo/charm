@@ -1205,7 +1205,7 @@
             "office": {
                 "title": "Head Office",
                 "address": "Jl. Dago No.138, Lebakgede, Kecamatan Coblong, Kota Bandung, Jawa Barat 40132",
-                "hours": "Monday - Friday, 09:00 - 18:00 WIB"
+                "hours": "Monday - Friday, 08:00 - 17:00 WIB"
             },
             "support": {
                 "title": "Customer Support"
@@ -1223,13 +1223,13 @@
             "details": {
                 "addressTitle": "Full Address",
                 "transportTitle": "Public Transportation",
-                "transport1": "5 minutes from Cicalengka Station",
-                "transport2": "10 minutes from Cicaheum Terminal",
+                "transport1": "14 minutes from Bandung Station",
+                "transport2": "48 minutes from Whoosh Station",
                 "parkingTitle": "Parking Facilities",
                 "parkingDesc": "Car & motorcycle parking available. Valet parking available",
                 "hoursTitle": "Operating Hours",
-                "weekdays": "Monday - Friday: 09:00 - 18:00 WIB",
-                "saturday": "Saturday: 09:00 - 13:00 WIB"
+                "weekdays": "Monday - Friday: 08:00 - 17:00 WIB",
+                "saturday": "Saturday: 08:00 - 12:00 WIB"
             }
         }
     },
