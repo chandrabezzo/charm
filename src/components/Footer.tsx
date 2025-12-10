@@ -1,9 +1,10 @@
 import { MessageCircle, Mail, MapPin, Phone } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 export default function Footer() {
   const { t } = useTranslation();
+  const navigate = useNavigate();
   const currentYear = new Date().getFullYear();
 
   const productLinks = [
@@ -19,6 +20,12 @@ export default function Footer() {
     { labelKey: 'footer.company.solutions', href: '/solutions' },
     { labelKey: 'footer.company.contact', href: '/contact' }
   ];
+
+  const handleLinkClick = (href: string) => (e: React.MouseEvent) => {
+    e.preventDefault();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    setTimeout(() => navigate(href), 300);
+  };
 
   return (
     <footer className="bg-gray-900 text-gray-300">
@@ -64,7 +71,11 @@ export default function Footer() {
             <ul className="space-y-3">
               {productLinks.map((item, index) => (
                 <li key={index}>
-                  <Link to={item.href} className="hover:text-emerald-400 transition-colors">
+                  <Link
+                    to={item.href}
+                    onClick={handleLinkClick(item.href)}
+                    className="hover:text-emerald-400 transition-colors"
+                  >
                     {t(item.labelKey)}
                   </Link>
                 </li>
@@ -77,7 +88,11 @@ export default function Footer() {
             <ul className="space-y-3">
               {companyLinks.map((item, index) => (
                 <li key={index}>
-                  <Link to={item.href} className="hover:text-emerald-400 transition-colors">
+                  <Link
+                    to={item.href}
+                    onClick={handleLinkClick(item.href)}
+                    className="hover:text-emerald-400 transition-colors"
+                  >
                     {t(item.labelKey)}
                   </Link>
                 </li>

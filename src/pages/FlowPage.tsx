@@ -1,4 +1,4 @@
-import { MousePointer, Bot, Webhook, Eye, ShoppingCart, Calendar, MessageCircle, TrendingUp, Clock, DollarSign, BarChart, Star, Check, Zap, Play } from 'lucide-react';
+import { MousePointer, Bot, Webhook, Eye, ShoppingCart, Calendar, MessageCircle, TrendingUp, Clock, DollarSign, BarChart, Star, Zap, Play } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
@@ -366,7 +366,6 @@ export default function FlowPage() {
 
                     <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
                         {benefits.map((benefit, index) => {
-                            const Icon = benefit.icon;
                             return (
                                 <div
                                     key={index}

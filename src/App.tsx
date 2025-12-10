@@ -9,10 +9,12 @@ import PricingPage from './pages/PricingPage';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
 import BroadcastPage from './pages/BroadcastPage';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
     <Router basename="/charm">
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/ai-chat" element={<AIChatPage />} />
