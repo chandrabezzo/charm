@@ -14,9 +14,9 @@ export default function Hero() {
     { key: 'flow', href: '/flow' },
     { key: 'features', href: '/features' },
     { key: 'solutions', href: '/solutions' },
-    { key: 'pricing', href: '#pricing' },
-    { key: 'about', href: '#about' },
-    { key: 'contact', href: '#contact' }
+    { key: 'pricing', href: '/pricing' },
+    { key: 'about', href: '/about' },
+    { key: 'contact', href: '/contact' }
   ];
 
   return (

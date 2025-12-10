@@ -987,6 +987,555 @@
             "cta": "Konsultasi Gratis Sekarang"
         }
     },
+    "pricingPage": {
+        "hero": {
+            "badge": "HARGA TERJANGKAU",
+            "title": "Harga Terjangkau untuk Semua Bisnis",
+            "subtitle": "Pilih paket yang sesuai dengan kebutuhan Anda. Semua paket sudah termasuk fitur lengkap!"
+        },
+        "billing": {
+            "monthly": "Bulanan",
+            "yearly": "Tahunan",
+            "save": "Hemat 20%"
+        },
+        "plans": {
+            "popular": "PALING POPULER",
+            "guarantee": "Semua paket include SSL Security, Auto Backup, 99.9% Uptime SLA",
+            "cta": {
+                "trial": "Mulai Gratis 7 Hari",
+                "contact": "Hubungi Sales"
+            },
+            "starter": {
+                "description": "Untuk UMKM yang baru mulai",
+                "features": [
+                    "1 Nomor WhatsApp",
+                    "AI Chat Basic (500 chat/bulan)",
+                    "Store Basic (50 produk)",
+                    "Dashboard Analytics",
+                    "2 User/Agent",
+                    "Email Support"
+                ]
+            },
+            "professional": {
+                "description": "Untuk bisnis yang berkembang",
+                "features": [
+                    "3 Nomor WhatsApp",
+                    "AI Chat Advanced (Unlimited)",
+                    "Store Premium (Unlimited)",
+                    "Flowmaker Unlimited",
+                    "Broadcast (1K kontak)",
+                    "API Integration",
+                    "10 User/Agent",
+                    "Priority Support",
+                    "Multi-cabang Support"
+                ]
+            },
+            "business": {
+                "description": "Untuk bisnis dengan multi-cabang",
+                "features": [
+                    "Semua Fitur Professional",
+                    "10 Nomor WhatsApp",
+                    "Broadcast Unlimited",
+                    "White Label Option",
+                    "Custom Integration",
+                    "Dedicated Account Manager",
+                    "Training & Onboarding",
+                    "24/7 Phone Support",
+                    "SLA Guarantee"
+                ]
+            },
+            "enterprise": {
+                "description": "Untuk korporasi & enterprise",
+                "features": [
+                    "Semua Fitur Business",
+                    "Unlimited Nomor WhatsApp",
+                    "Custom Development",
+                    "On-Premise Deployment",
+                    "Advanced Security",
+                    "Custom SLA",
+                    "Dedicated Infrastructure",
+                    "Priority Feature Request",
+                    "Executive Support"
+                ]
+            }
+        },
+        "comparison": {
+            "badge": "PERBANDINGAN",
+            "title": "Perbandingan Fitur Lengkap",
+            "subtitle": "Lihat detail fitur yang Anda dapatkan di setiap paket",
+            "feature": "Fitur",
+            "whatsappNumber": "Nomor WhatsApp",
+            "aiChat": "AI Chat",
+            "broadcast": "Broadcast",
+            "storeProducts": "Store Produk",
+            "userAgent": "User/Agent",
+            "apiAccess": "API Access",
+            "whiteLabel": "White Label",
+            "dedicatedSupport": "Dedicated Support"
+        },
+        "faq": {
+            "badge": "FAQ HARGA",
+            "title": "Pertanyaan Seputar Harga",
+            "subtitle": "Temukan jawaban untuk pertanyaan umum tentang paket dan harga WatBis",
+            "q1": {
+                "question": "Apakah ada biaya setup atau hidden cost?",
+                "answer": "Tidak ada! Harga yang tertera sudah all-in. Tidak ada biaya setup, biaya aktivasi, atau hidden cost lainnya. Yang Anda bayar hanya subscription bulanan/tahunan sesuai paket yang dipilih."
+            },
+            "q2": {
+                "question": "Bagaimana cara trial gratis 7 hari?",
+                "answer": "Klik tombol 'Mulai Gratis 7 Hari' pada paket yang Anda inginkan. Anda akan mendapatkan akses penuh ke semua fitur paket tersebut selama 7 hari tanpa perlu memasukkan kartu kredit. Setelah trial berakhir, Anda bisa memutuskan untuk melanjutkan subscription atau tidak."
+            },
+            "q3": {
+                "question": "Bisa upgrade atau downgrade paket kapan saja?",
+                "answer": "Ya, Anda bisa upgrade atau downgrade paket kapan saja. Untuk upgrade, selisih harga akan di-prorata sesuai sisa periode billing Anda. Untuk downgrade, perubahan akan berlaku di periode billing berikutnya."
+            },
+            "q4": {
+                "question": "Metode pembayaran apa saja yang tersedia?",
+                "answer": "Kami menerima pembayaran via Transfer Bank (BCA, Mandiri, BNI, BRI), Virtual Account, QRIS, Kartu Kredit/Debit, dan E-Wallet (OVO, GoPay, Dana). Untuk subscription tahunan, kami juga menyediakan opsi cicilan 0%."
+            },
+            "q5": {
+                "question": "Apakah ada diskon untuk pembayaran tahunan?",
+                "answer": "Ya! Anda akan mendapatkan diskon 20% jika memilih billing tahunan. Misalnya paket Professional yang normalnya Rp 499K/bulan, jika bayar tahunan hanya Rp 399K/bulan (total Rp 4.788K/tahun, hemat Rp 1.200K!)."
+            }
+        },
+        "bottomCta": {
+            "title": "Siap Memulai?",
+            "subtitle": "Coba gratis 7 hari, tidak perlu kartu kredit",
+            "trial": "Mulai Gratis Sekarang",
+            "contact": "Hubungi Sales"
+        }
+    },
+    "aboutPage": {
+        "story": {
+            "title": "Cerita Kami",
+            "subtitle": "Perjalanan kami dimulai dari passion untuk membantu UMKM Indonesia go digital",
+            "section1": {
+                "title": "Dimulai dari Masalah yang Nyata",
+                "paragraph1": "Pada tahun 2020, kami melihat ribuan UMKM Indonesia kesulitan beradaptasi dengan transformasi digital. Mereka memiliki produk bagus, tapi tidak tahu cara memanfaatkan WhatsApp untuk jualan secara maksimal.",
+                "paragraph2": "Kami percaya bahwa setiap bisnis, tidak peduli seberapa kecil, berhak mendapatkan akses ke teknologi terbaik. Itulah mengapa kami membuat CHARM - platform yang powerful namun mudah digunakan, bahkan untuk yang tidak tech-savvy sekalipun.",
+                "paragraph3": "Hari ini, kami bangga telah membantu lebih dari 10,000+ bisnis dari berbagai industri untuk bertumbuh dan berkembang melalui WhatsApp Marketing."
+            }
+        },
+        "values": {
+            "title": "Nilai-Nilai Kami",
+            "subtitle": "Prinsip yang menjadi fondasi dalam setiap keputusan dan tindakan kami",
+            "customerFirst": {
+                "title": "Customer First",
+                "description": "Kesuksesan customer adalah kesuksesan kami. Setiap fitur dirancang dengan mendengarkan kebutuhan nyata dari ribuan bisnis di Indonesia."
+            },
+            "innovation": {
+                "title": "Innovation",
+                "description": "Kami tidak pernah berhenti berinovasi. Selalu menghadirkan fitur-fitur terbaru yang didukung oleh teknologi AI terdepan."
+            },
+            "trust": {
+                "title": "Trust & Security",
+                "description": "Data customer adalah aset berharga. Kami menjaga dengan standar keamanan tingkat enterprise dan compliance penuh."
+            },
+            "partnership": {
+                "title": "Partnership",
+                "description": "Kami bukan hanya vendor, tapi partner bisnis Anda. Tim support kami siap membantu 24/7 untuk memastikan kesuksesan Anda."
+            },
+            "resultOriented": {
+                "title": "Result Oriented",
+                "description": "Kami fokus pada hasil nyata. Bukan hanya fitur, tapi ROI yang terukur untuk setiap sen yang Anda investasikan."
+            },
+            "madeForIndonesia": {
+                "title": "Made for Indonesia",
+                "description": "Kami memahami market Indonesia dengan baik. Solusi kami disesuaikan dengan behavior dan kebutuhan lokal."
+            }
+        },
+        "team": {
+            "title": "Tim Kami",
+            "subtitle": "Bertemu dengan orang-orang di balik kesuksesan CHARM",
+            "cofounderCEO": "Co-Founder & CEO",
+            "cofounderCTO": "Co-Founder & CTO",
+            "headProduct": "Head of Product",
+            "headCustomerSuccess": "Head of Customer Success"
+        },
+        "partnership": {
+            "title1": "Kami Adalah",
+            "title2": "Official Meta Business Partner",
+            "description": "CHARM adalah platform WhatsApp Marketing All-in-One terlengkap di Indonesia. Sejak 2020, kami telah membantu lebih dari 10,000+ bisnis meningkatkan penjualan hingga 300% melalui solusi AI-powered yang inovatif.",
+            "badge1": "Meta Verified Partner",
+            "badge2": "ISO 27001 Certified",
+            "badge3": "10,000+ Active Users"
+        },
+        "stats": {
+            "title": "CHARM dalam Angka",
+            "subtitle": "Pencapaian yang membanggakan berkat kepercayaan customer kami",
+            "activeUsers": "Active Users",
+            "messagesSent": "Pesan Terkirim/Bulan",
+            "avgRevenue": "Avg Revenue Growth",
+            "satisfaction": "Customer Satisfaction",
+            "support": "Support Available",
+            "cities": "Kota di Indonesia",
+            "industries": "Industri Vertical",
+            "yearsExcellence": "Years Excellence"
+        },
+        "cta": {
+            "title": "Siap Bergabung dengan Ribuan Bisnis Sukses Lainnya?",
+            "subtitle": "Mulai transformasi digital Anda bersama CHARM hari ini",
+            "button1": "Coba Gratis 7 Hari",
+            "button2": "Hubungi Tim Kami"
+        }
+    },
+    "contactPage": {
+        "hero": {
+            "badge": "Support 24/7 Ready to Help",
+            "title": "Hubungi Tim CHARM",
+            "subtitle": "Dapatkan konsultasi gratis dan demo produk untuk transformasi WhatsApp Business Anda",
+            "whatsappAction": "Chat langsung"
+        },
+        "form": {
+            "title": "Kirim Pesan",
+            "subtitle": "Isi form dibawah dan tim kami akan menghubungi Anda dalam 24 jam",
+            "fullName": "Nama Lengkap",
+            "company": "Nama Perusahaan",
+            "whatsapp": "No. WhatsApp",
+            "subject": "Subjek Pertanyaan",
+            "selectSubject": "Pilih subjek...",
+            "subjects": {
+                "demo": "Demo Produk",
+                "consultation": "Konsultasi",
+                "partnership": "Partnership",
+                "support": "Support",
+                "other": "Lainnya"
+            },
+            "message": "Pesan",
+            "messagePlaceholder": "Ceritakan kebutuhan bisnis Anda...",
+            "submit": "Kirim Pesan"
+        },
+        "info": {
+            "office": {
+                "title": "Kantor Pusat",
+                "address": "Jl. Dago No.138, Lebakgede, Kecamatan Coblong, Kota Bandung, Jawa Barat 40132",
+                "hours": "Senin - Jumat, 09:00 - 18:00 WIB"
+            },
+            "support": {
+                "title": "Customer Support"
+            },
+            "sales": {
+                "title": "Sales & Partnership"
+            }
+        },
+        "location": {
+            "badge": "LOKASI KANTOR",
+            "title": "Kunjungi Kantor CHARM",
+            "subtitle": "Kami dengan senang hati menerima kunjungan Anda untuk diskusi langsung",
+            "hq": "CHARM Headquarters",
+            "openMaps": "Buka di Google Maps",
+            "details": {
+                "addressTitle": "Alamat Lengkap",
+                "transportTitle": "Transportasi Umum",
+                "transport1": "5 menit dari Stasiun Cicalengka",
+                "transport2": "10 menit dari Terminal Cicaheum",
+                "parkingTitle": "Fasilitas Parkir",
+                "parkingDesc": "Tersedia parkir mobil & motor. Valet parking available",
+                "hoursTitle": "Jam Operasional",
+                "weekdays": "Senin - Jumat: 09:00 - 18:00 WIB",
+                "saturday": "Sabtu: 09:00 - 13:00 WIB"
+            }
+        }
+    },
+    "broadcastPage": {
+        "hero": {
+            "badge": "50+ FITUR CANGGIH",
+            "title1": "Semua Fitur yang Anda Butuhkan untuk",
+            "title2": "Sukses di WhatsApp",
+            "subtitle": "Dari AI Chat pintar, Toko Online terintegrasi, hingga Broadcast Massal anti-blokir. Semua fitur premium dalam satu platform lengkap untuk scale bisnis Anda.",
+            "stats": {
+                "features": "Fitur Lengkap",
+                "aiActive": "AI Aktif",
+                "messagesPerDay": "Pesan/Hari"
+            }
+        },
+        "categories": {
+            "ai": "AI & Automation",
+            "ecommerce": "E-Commerce & Store",
+            "marketing": "Marketing & Broadcast",
+            "business": "Business Management"
+        },
+        "features": {
+            "title": "Jelajahi Semua Fitur Premium",
+            "subtitle": "50+ fitur lengkap yang dirancang khusus untuk membantu bisnis Indonesia bertumbuh di WhatsApp",
+            "ai": {
+                "chat": {
+                    "title": "AI Chat GPT-Powered",
+                    "desc": "Chatbot pintar berbasis GPT yang membalas customer 24/7 dengan natural language processing.",
+                    "items": [
+                        "Natural Language Processing",
+                        "Context-aware responses",
+                        "Multi-language support",
+                        "Learning dari percakapan"
+                    ]
+                },
+                "flow": {
+                    "title": "AI Flow Builder",
+                    "desc": "Buat alur percakapan otomatis dengan drag & drop visual builder. No coding required.",
+                    "items": [
+                        "Visual drag-and-drop interface",
+                        "Conditional branching logic",
+                        "Pre-built templates library",
+                        "A/B testing support"
+                    ]
+                },
+                "autoReply": {
+                    "title": "Smart Auto-Reply",
+                    "desc": "Respon otomatis berdasarkan keyword, jam kerja, dan kondisi spesifik lainnya.",
+                    "items": [
+                        "Keyword detection engine",
+                        "Working hours schedule",
+                        "Away & vacation messages",
+                        "Quick replies templates"
+                    ]
+                },
+                "followUp": {
+                    "title": "Follow-up Otomatis",
+                    "desc": "AI yang proaktif menindaklanjuti customer yang belum reply atau belum checkout.",
+                    "items": [
+                        "Smart timing algorithm",
+                        "Abandoned cart recovery",
+                        "Multi-step sequences",
+                        "Custom follow-up rules"
+                    ]
+                },
+                "forms": {
+                    "title": "Interactive Forms",
+                    "desc": "Formulir interaktif dalam chat untuk kualifikasi leads dan data collection otomatis.",
+                    "items": [
+                        "Interactive form builder",
+                        "Data validation rules",
+                        "Conditional questions",
+                        "Auto CRM integration"
+                    ]
+                },
+                "vision": {
+                    "title": "Vision AI Recognition",
+                    "desc": "AI yang bisa memahami gambar yang dikirim customer untuk respon kontekstual.",
+                    "items": [
+                        "Product identification",
+                        "Document OCR scanning",
+                        "Image-based search",
+                        "Visual similarity matching"
+                    ]
+                }
+            },
+            "ecommerce": {
+                "webStore": {
+                    "title": "Web Store Profesional",
+                    "desc": "Toko online modern, responsive, dan SEO-friendly dengan gratis subdomain dan hosting.",
+                    "items": [
+                        "Mobile-optimized responsive design",
+                        "Custom branding & themes",
+                        "SEO-friendly structure",
+                        "Free subdomain & hosting"
+                    ]
+                },
+                "conversational": {
+                    "title": "Conversational Commerce",
+                    "desc": "Customer bisa belanja langsung dari chat WhatsApp tanpa keluar aplikasi.",
+                    "items": [
+                        "In-chat product catalog browser",
+                        "One-click express checkout",
+                        "Smart cart management",
+                        "Auto order confirmation"
+                    ]
+                },
+                "payment": {
+                    "title": "Payment Gateway",
+                    "desc": "Integrasi lengkap dengan berbagai metode pembayaran lokal dan internasional.",
+                    "items": [
+                        "Midtrans, Xendit, iPay mu integration",
+                        "Transfer bank, e-wallet, QRIS",
+                        "Auto payment verification",
+                        "Refund & dispute management"
+                    ]
+                },
+                "inventory": {
+                    "title": "Inventory Management",
+                    "desc": "Kelola stock produk dengan mudah, auto-update dan notifikasi stock menipis.",
+                    "items": [
+                        "Real-time stock tracking",
+                        "Low stock alerts & notifications",
+                        "Bulk import/export CSV/Excel",
+                        "Product variants management"
+                    ]
+                },
+                "shipping": {
+                    "title": "Shipping Integration",
+                    "desc": "Connect dengan ekspedisi lokal untuk cek ongkir dan tracking resi otomatis.",
+                    "items": [
+                        "JNE, SiCepat, J&T, Grab, GoSend",
+                        "Auto shipping cost calculation",
+                        "Tracking number integration",
+                        "Real-time delivery status updates"
+                    ]
+                },
+                "order": {
+                    "title": "Order Management",
+                    "desc": "Dashboard lengkap untuk kelola semua pesanan dari satu tempat terpusat.",
+                    "items": [
+                        "Order tracking & status updates",
+                        "Auto invoice generation PDF",
+                        "Order notes & file attachments",
+                        "Bulk order processing tools"
+                    ]
+                }
+            },
+            "marketing": {
+                "broadcast": {
+                    "title": "Broadcast Massal Anti-Blokir",
+                    "desc": "Kirim pesan ke ribuan kontak sekaligus menggunakan API resmi WhatsApp Business.",
+                    "items": [
+                        "Unlimited contacts database",
+                        "Schedule campaigns in advance",
+                        "Personalization tags (nama, kota)",
+                        "Multimedia support (image, video, PDF)"
+                    ]
+                },
+                "segmentation": {
+                    "title": "Segmentasi Kontak",
+                    "desc": "Buat grup kontak berdasarkan demografi, behavior, atau custom tags.",
+                    "items": [
+                        "Dynamic segmentation rules",
+                        "Tag management system",
+                        "Import from CSV/Excel/Google Sheets",
+                        "Auto-tagging based on behavior"
+                    ]
+                },
+                "analytics": {
+                    "title": "Campaign Analytics",
+                    "desc": "Tracking lengkap performa setiap campaign dengan real-time detailed reports.",
+                    "items": [
+                        "Delivery rate tracking metrics",
+                        "Open & read rate analysis",
+                        "Click-through rate (CTR) tracking",
+                        "Conversion analytics dashboard"
+                    ]
+                },
+                "personalization": {
+                    "title": "Personalisasi Otomatis",
+                    "desc": "Setiap pesan otomatis menggunakan nama dan data custom field penerima.",
+                    "items": [
+                        "Name personalization (nama)",
+                        "Custom field insertion unlimited",
+                        "Dynamic content based on tags",
+                        "Location-based messaging"
+                    ]
+                },
+                "utm": {
+                    "title": "UTM & Link Tracking",
+                    "desc": "Track setiap klik link untuk ukur ROI campaign dengan akurat dan detail.",
+                    "items": [
+                        "Custom short links generator",
+                        "UTM parameter support full",
+                        "Click analytics real-time",
+                        "Conversion tracking pixels"
+                    ]
+                },
+                "template": {
+                    "title": "Template Library",
+                    "desc": "Ratusan template siap pakai untuk berbagai industri dan use case bisnis.",
+                    "items": [
+                        "Pre-approved Meta templates",
+                        "Custom template builder visual",
+                        "Template versioning control",
+                        "Quick approval process 15-30min"
+                    ]
+                }
+            },
+            "business": {
+                "crm": {
+                    "title": "CRM Terintegrasi",
+                    "desc": "Kelola database customer, track interaction history, dan follow-up otomatis.",
+                    "items": [
+                        "360° customer view profile",
+                        "Interaction history timeline",
+                        "Custom fields unlimited",
+                        "Lead scoring & qualification"
+                    ]
+                },
+                "team": {
+                    "title": "Team Collaboration",
+                    "desc": "Multi-agent inbox dengan role permission dan assignment otomatis.",
+                    "items": [
+                        "Multi-agent inbox system",
+                        "Role-based permissions",
+                        "Auto chat assignment rules",
+                        "Internal notes & mentions"
+                    ]
+                },
+                "reporting": {
+                    "title": "Advanced Reporting",
+                    "desc": "Dashboard analytics lengkap dengan export ke Excel/PDF untuk laporan.",
+                    "items": [
+                        "Real-time dashboard analytics",
+                        "Custom report builder",
+                        "Export to Excel/PDF",
+                        "Scheduled email reports"
+                    ]
+                },
+                "integration": {
+                    "title": "API & Integration",
+                    "desc": "Connect dengan tools favorit Anda via webhook, Zapier, atau custom API.",
+                    "items": [
+                        "RESTful API documentation",
+                        "Webhook triggers & actions",
+                        "Zapier integration 1000+ apps",
+                        "Custom integration support"
+                    ]
+                },
+                "automation": {
+                    "title": "Business Automation",
+                    "desc": "Otomasi proses bisnis repetitif dengan workflow builder yang powerful.",
+                    "items": [
+                        "Visual workflow builder",
+                        "Trigger-based automation",
+                        "Multi-channel automation",
+                        "Time-based scheduling"
+                    ]
+                },
+                "compliance": {
+                    "title": "Security & Compliance",
+                    "desc": "Enterprise-grade security dengan compliance penuh dan data encryption.",
+                    "items": [
+                        "End-to-end encryption",
+                        "GDPR compliance ready",
+                        "ISO 27001 certified",
+                        "Regular security audits"
+                    ]
+                }
+            }
+        },
+        "process": {
+            "title": "Broadcast Massal dalam 4 Langkah Mudah",
+            "subtitle": "Lihat bagaimana Anda bisa mengirim ribuan pesan promosi secara bersamaan dengan aman menggunakan API resmi WhatsApp. Personalisasi otomatis, approval cepat, dan tracking real-time.",
+            "step1": {
+                "title": "Buat Template Pesan",
+                "desc": "Design template broadcast dengan personalisasi otomatis. Gunakan variabel seperti {nama}, {produk}, atau custom field lainnya."
+            },
+            "step2": {
+                "title": "Approval Otomatis",
+                "desc": "Template di-review dan disetujui oleh sistem Meta dalam 15-30 menit. Proses approval yang cepat dan mudah.",
+                "badge": "Meta Verified"
+            },
+            "step3": {
+                "title": "Pilih Target Audience",
+                "desc": "Segmentasi kontak berdasarkan tags, demografi, atau behavior. Kirim pesan yang relevan ke audience yang tepat.",
+                "badge": "Smart Targeting"
+            },
+            "step4": {
+                "title": "Kirim & Track Results",
+                "desc": "Broadcast terkirim ke ribuan kontak dalam hitungan detik. Monitor real-time: terkirim, dibaca, dan dibalas.",
+                "badge": "Real-time Analytics"
+            }
+        },
+        "cta": {
+            "title": "Siap Maksimalkan Potensi WhatsApp Marketing?",
+            "subtitle": "Bergabunglah dengan 10,000+ bisnis yang sudah scale dengan CHARM",
+            "button": "Coba Gratis 7 Hari"
+        }
+    },
     "pricing": {
         "title": "Pilih Paket yang Tepat untuk Bisnis Anda",
         "subtitle": "Mulai gratis, upgrade kapan saja. Semua paket termasuk akses ke fitur unggulan kami.",

@@ -5,6 +5,9 @@ import StorePage from './pages/StorePage';
 import FlowPage from './pages/FlowPage';
 import FeaturesPage from './pages/FeaturesPage';
 import SolutionsPage from './pages/SolutionsPage';
+import PricingPage from './pages/PricingPage';
+import AboutPage from './pages/AboutPage';
+import ContactPage from './pages/ContactPage';
 
 function App() {
   return (
@@ -16,6 +19,9 @@ function App() {
         <Route path="/flow" element={<FlowPage />} />
         <Route path="/features" element={<FeaturesPage />} />
         <Route path="/solutions" element={<SolutionsPage />} />
+        <Route path="/pricing" element={<PricingPage />} />
+        <Route path="/about" element={<AboutPage />} />
+        <Route path="/contact" element={<ContactPage />} />
       </Routes>
     </Router>
   );

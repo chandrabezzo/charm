@@ -987,6 +987,256 @@
             "cta": "Free Consultation Now"
         }
     },
+    "pricingPage": {
+        "hero": {
+            "badge": "AFFORDABLE PRICING",
+            "title": "Affordable Pricing for All Businesses",
+            "subtitle": "Choose the package that suits your needs. All packages include complete features!"
+        },
+        "billing": {
+            "monthly": "Monthly",
+            "yearly": "Yearly",
+            "save": "Save 20%"
+        },
+        "plans": {
+            "popular": "MOST POPULAR",
+            "guarantee": "All plans include SSL Security, Auto Backup, 99.9% Uptime SLA",
+            "cta": {
+                "trial": "Start 7-Day Free Trial",
+                "contact": "Contact Sales"
+            },
+            "starter": {
+                "description": "For SMEs just getting started",
+                "features": [
+                    "1 WhatsApp Number",
+                    "AI Chat Basic (500 chats/month)",
+                    "Store Basic (50 products)",
+                    "Dashboard Analytics",
+                    "2 Users/Agents",
+                    "Email Support"
+                ]
+            },
+            "professional": {
+                "description": "For growing businesses",
+                "features": [
+                    "3 WhatsApp Numbers",
+                    "AI Chat Advanced (Unlimited)",
+                    "Store Premium (Unlimited)",
+                    "Flowmaker Unlimited",
+                    "Broadcast (1K contacts)",
+                    "API Integration",
+                    "10 Users/Agents",
+                    "Priority Support",
+                    "Multi-branch Support"
+                ]
+            },
+            "business": {
+                "description": "For multi-branch businesses",
+                "features": [
+                    "All Professional Features",
+                    "10 WhatsApp Numbers",
+                    "Unlimited Broadcast",
+                    "White Label Option",
+                    "Custom Integration",
+                    "Dedicated Account Manager",
+                    "Training & Onboarding",
+                    "24/7 Phone Support",
+                    "SLA Guarantee"
+                ]
+            },
+            "enterprise": {
+                "description": "For corporations & enterprises",
+                "features": [
+                    "All Business Features",
+                    "Unlimited WhatsApp Numbers",
+                    "Custom Development",
+                    "On-Premise Deployment",
+                    "Advanced Security",
+                    "Custom SLA",
+                    "Dedicated Infrastructure",
+                    "Priority Feature Request",
+                    "Executive Support"
+                ]
+            }
+        },
+        "comparison": {
+            "badge": "COMPARISON",
+            "title": "Complete Feature Comparison",
+            "subtitle": "See details of features you get in each package",
+            "feature": "Feature",
+            "whatsappNumber": "WhatsApp Number",
+            "aiChat": "AI Chat",
+            "broadcast": "Broadcast",
+            "storeProducts": "Store Products",
+            "userAgent": "User/Agent",
+            "apiAccess": "API Access",
+            "whiteLabel": "White Label",
+            "dedicatedSupport": "Dedicated Support"
+        },
+        "faq": {
+            "badge": "PRICING FAQ",
+            "title": "Pricing FAQs",
+            "subtitle": "Find answers to common questions about packages and pricing",
+            "q1": {
+                "question": "Are there any setup fees or hidden costs?",
+                "answer": "No! The displayed price is all-inclusive. There are no setup fees, activation fees, or other hidden costs. You only pay the monthly/yearly subscription according to your chosen package."
+            },
+            "q2": {
+                "question": "How does the 7-day free trial work?",
+                "answer": "Click the 'Start 7-Day Free Trial' button on your desired package. You'll get full access to all features of that package for 7 days without needing to enter a credit card. After the trial ends, you can decide whether to continue the subscription or not."
+            },
+            "q3": {
+                "question": "Can I upgrade or downgrade my plan anytime?",
+                "answer": "Yes, you can upgrade or downgrade your plan anytime. For upgrades, the price difference will be prorated based on your remaining billing period. For downgrades, changes will take effect in the next billing period."
+            },
+            "q4": {
+                "question": "What payment methods are available?",
+                "answer": "We accept payments via Bank Transfer (BCA, Mandiri, BNI, BRI), Virtual Account, QRIS, Credit/Debit Card, and E-Wallet (OVO, GoPay, Dana). For annual subscriptions, we also provide 0% installment options."
+            },
+            "q5": {
+                "question": "Is there a discount for annual payments?",
+                "answer": "Yes! You get a 20% discount when choosing annual billing. For example, the Professional package normally costs Rp 499K/month, if paid annually it's only Rp 399K/month (total Rp 4,788K/year, saving Rp 1,200K!)."
+            }
+        },
+        "bottomCta": {
+            "title": "Ready to Get Started?",
+            "subtitle": "Try free for 7 days, no credit card required",
+            "trial": "Start Free Now",
+            "contact": "Contact Sales"
+        }
+    },
+    "aboutPage": {
+        "story": {
+            "title": "Our Story",
+            "subtitle": "Our journey started from a passion to help Indonesian SMEs go digital",
+            "section1": {
+                "title": "Started from a Real Problem",
+                "paragraph1": "In 2020, we saw thousands of Indonesian SMEs struggling to adapt to digital transformation. They had great products, but didn't know how to leverage WhatsApp for maximum sales.",
+                "paragraph2": "We believe that every business, no matter how small, deserves access to the best technology. That's why we created CHARM - a powerful yet easy-to-use platform, even for the non-tech-savvy.",
+                "paragraph3": "Today, we're proud to have helped over 10,000+ businesses from various industries grow and thrive through WhatsApp Marketing."
+            }
+        },
+        "values": {
+            "title": "Our Values",
+            "subtitle": "Principles that form the foundation of every decision and action we take",
+            "customerFirst": {
+                "title": "Customer First",
+                "description": "Customer success is our success. Every feature is designed by listening to real needs from thousands of businesses in Indonesia."
+            },
+            "innovation": {
+                "title": "Innovation",
+                "description": "We never stop innovating. Always delivering the latest features backed by cutting-edge AI technology."
+            },
+            "trust": {
+                "title": "Trust & Security",
+                "description": "Customer data is a valuable asset. We protect it with enterprise-grade security standards and full compliance."
+            },
+            "partnership": {
+                "title": "Partnership",
+                "description": "We're not just a vendor, but your business partner. Our support team is ready to help 24/7 to ensure your success."
+            },
+            "resultOriented": {
+                "title": "Result Oriented",
+                "description": "We focus on real results. Not just features, but measurable ROI for every penny you invest."
+            },
+            "madeForIndonesia": {
+                "title": "Made for Indonesia",
+                "description": "We understand the Indonesian market well. Our solutions are tailored to local behavior and needs."
+            }
+        },
+        "team": {
+            "title": "Our Team",
+            "subtitle": "Meet the people behind CHARM's success",
+            "cofounderCEO": "Co-Founder & CEO",
+            "cofounderCTO": "Co-Founder & CTO",
+            "headProduct": "Head of Product",
+            "headCustomerSuccess": "Head of Customer Success"
+        },
+        "partnership": {
+            "title1": "We Are",
+            "title2": "Official Meta Business Partner",
+            "description": "CHARM is Indonesia's most complete All-in-One WhatsApp Marketing platform. Since 2020, we've helped over 10,000+ businesses increase sales by up to 300% through innovative AI-powered solutions.",
+            "badge1": "Meta Verified Partner",
+            "badge2": "ISO 27001 Certified",
+            "badge3": "10,000+ Active Users"
+        },
+        "stats": {
+            "title": "CHARM in Numbers",
+            "subtitle": "Proud achievements thanks to our customers' trust",
+            "activeUsers": "Active Users",
+            "messagesSent": "Messages Sent/Month",
+            "avgRevenue": "Avg Revenue Growth",
+            "satisfaction": "Customer Satisfaction",
+            "support": "Support Available",
+            "cities": "Cities in Indonesia",
+            "industries": "Industry Verticals",
+            "yearsExcellence": "Years Excellence"
+        },
+        "cta": {
+            "title": "Ready to Join Thousands of Other Successful Businesses?",
+            "subtitle": "Start your digital transformation with CHARM today",
+            "button1": "Try Free for 7 Days",
+            "button2": "Contact Our Team"
+        }
+    },
+    "contactPage": {
+        "hero": {
+            "badge": "Support 24/7 Ready to Help",
+            "title": "Contact CHARM Team",
+            "subtitle": "Get free consultation and product demo for your WhatsApp Business transformation",
+            "whatsappAction": "Chat directly"
+        },
+        "form": {
+            "title": "Send Message",
+            "subtitle": "Fill out the form below and our team will contact you within 24 hours",
+            "fullName": "Full Name",
+            "company": "Company Name",
+            "whatsapp": "WhatsApp Number",
+            "subject": "Subject",
+            "selectSubject": "Select subject...",
+            "subjects": {
+                "demo": "Product Demo",
+                "consultation": "Consultation",
+                "partnership": "Partnership",
+                "support": "Support",
+                "other": "Other"
+            },
+            "message": "Message",
+            "messagePlaceholder": "Tell us about your business needs...",
+            "submit": "Send Message"
+        },
+        "info": {
+            "office": {
+                "title": "Head Office",
+                "address": "Jl. Dago No.138, Lebakgede, Kecamatan Coblong, Kota Bandung, Jawa Barat 40132",
+                "hours": "Monday - Friday, 09:00 - 18:00 WIB"
+            },
+            "support": {
+                "title": "Customer Support"
+            },
+            "sales": {
+                "title": "Sales & Partnership"
+            }
+        },
+        "location": {
+            "badge": "OFFICE LOCATION",
+            "title": "Visit CHARM Office",
+            "subtitle": "We're happy to receive your visit for direct discussion",
+            "hq": "CHARM Headquarters",
+            "openMaps": "Open in Google Maps",
+            "details": {
+                "addressTitle": "Full Address",
+                "transportTitle": "Public Transportation",
+                "transport1": "5 minutes from Cicalengka Station",
+                "transport2": "10 minutes from Cicaheum Terminal",
+                "parkingTitle": "Parking Facilities",
+                "parkingDesc": "Car & motorcycle parking available. Valet parking available",
+                "hoursTitle": "Operating Hours",
+                "weekdays": "Monday - Friday: 09:00 - 18:00 WIB",
+                "saturday": "Saturday: 09:00 - 13:00 WIB"
+            }
+        }
+    },
     "pricing": {
         "title": "Choose the Right Plan for Your Business",
         "subtitle": "Start free, upgrade anytime. All plans include access to our premium features.",
